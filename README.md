@@ -20,6 +20,7 @@ It should be an array of verification steps.
 ```jsonc
 [
   {
+    "title": "The title of current quest step",
     "code": "URL of the verification scripts' code",
     "schema": [
       {
