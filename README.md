@@ -14,7 +14,16 @@ The folder structure:
   |- *.cdc // The verification scripts for this quest
 ```
 
-Schema of `verify.json`  
+On-chain information:
+- `questKey`
+- URL of `README.md` and `verify.json`
+
+Off-chain information:
+- Markdown contents of guide in `README.md`
+- Verification parameters and description in `verify.json`
+- Cadence verification scripts which were defined URLs in `verify.json`
+
+The schema of `verify.json`  
 It should be an array of verification steps.
 
 ```jsonc
