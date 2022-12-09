@@ -6,8 +6,7 @@ The first step of building on Flow.
 
 Required:
 
-- [NodeJS](https://nodejs.org/dist/latest-v16.x/) Use Node v16. You know you have installed it if you type `node -v` in your terminal and it prints a version.
-- [Flow CLI](https://developers.flow.com/tools/flow-cli/install) You know you have installed it if you type `flow version` in your terminal and it prints a version.
+- [Flow CLI](https://developers.flow.com/tools/flow-cli/install) (🧨 Make sure to install the correct link for your system 🧨). You know you have installed it if you type `flow version` in your terminal and it prints a version.
 
 ## Create your account
 
