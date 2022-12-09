@@ -1,5 +1,6 @@
 [
   {
+    "title": "Create account by Flow CLI",
     "code": "https://raw.githubusercontent.com/btspoony/cadence-challenges/main/quests/create-account/verify-step1.cdc",
     "schema": [
       {
