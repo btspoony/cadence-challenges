@@ -6,36 +6,16 @@
       {
         "key": "acct",
         "type": "Address"
-      }
-    ],
-    "tests": [
-      {
-        "inputs": [
-          {
-            "value": "$0",
-            "type": "Address"
-          }
-        ],
-        "outputs": [
-          {
-            "expect": "return",
-            "result": true
-          }
-        ]
       },
       {
-        "inputs": [
-          {
-            "value": "0x1",
-            "type": "Address"
-          }
-        ],
-        "outputs": [
-          {
-            "expect": "error"
-          }
-        ]
+        "key": "pubKey",
+        "type": "String"
       }
-    ]
+    ],
+    "test": {
+      "network": "testnet",
+      "expect": "return",
+      "result": true
+    }
   }
 ]
