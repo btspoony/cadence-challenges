@@ -1,0 +1,77 @@
+[
+  {
+    "title": "Go to faucet webiste",
+    "description": "What is the URL of Flow faucet?",
+    "type": "quiz",
+    "quiz": {
+      "type": "radio",
+      "options": [
+        {
+          "key": "A",
+          "description": "https://testnet-faucet.onflow.org/"
+        },
+        {
+          "key": "B",
+          "description": "https://port.onflow.org/"
+        },
+        {
+          "key": "C",
+          "description": "https://developers.flow.com/"
+        },
+        {
+          "key": "D",
+          "description": "https://testnet.flowscan.org/"
+        }
+      ],
+      "answer": "A"
+    }
+  },
+  {
+    "title": "Know about Signature & Hash",
+    "description": "Which algorithm is not supported for Flow Account?",
+    "type": "quiz",
+    "quiz": {
+      "type": "radio",
+      "options": [
+        {
+          "key": "A",
+          "description": "Signature Algorithm: ECDSA_P256"
+        },
+        {
+          "key": "B",
+          "description": "Signature Algorithm: ECDSA_secp256k1"
+        },
+        {
+          "key": "C",
+          "description": "Hash Algorithms: SHA-3"
+        },
+        {
+          "key": "D",
+          "description": "Hash Algorithms: Keccak256"
+        }
+      ],
+      "answer": "D"
+    }
+  },
+  {
+    "title": "Create account by Flow CLI",
+    "description": "Create a new flow account and verify on-chain.",
+    "type": "onchain",
+    "code": "https://raw.githubusercontent.com/btspoony/cadence-challenges/main/quests/create-account/verify-step1.cdc",
+    "schema": [
+      {
+        "key": "acct",
+        "type": "Address"
+      },
+      {
+        "key": "pubKey",
+        "type": "String"
+      }
+    ],
+    "test": {
+      "network": "testnet",
+      "expect": "return",
+      "result": true
+    }
+  }
+]
