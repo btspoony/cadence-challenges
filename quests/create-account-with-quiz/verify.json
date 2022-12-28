@@ -36,7 +36,7 @@
     "quiz": [
       {
         "type": "radio",
-        "question": "Which algorithm is not supported for Flow Account?",
+        "question": "Which Signature Algorithm is not supported for Flow Account?",
         "options": [
           {
             "key": "A",
@@ -48,14 +48,29 @@
           },
           {
             "key": "C",
-            "description": "Hash Algorithms: SHA-3"
-          },
-          {
-            "key": "D",
-            "description": "Hash Algorithms: Keccak256"
+            "description": "Signature Algorithms: BLS_BLS12_381"
           }
         ],
-        "answer": "D"
+        "answer": "C"
+      },
+      {
+        "type": "radio",
+        "question": "Which Hash Algorithm is not supported for Flow Account?",
+        "options": [
+          {
+            "key": "A",
+            "description": "Hash Algorithms: SHA-2"
+          },
+          {
+            "key": "B",
+            "description": "Hash Algorithms: Keccak256"
+          },
+          {
+            "key": "C",
+            "description": "Hash Algorithms: SHA-3"
+          }
+        ],
+        "answer": "B"
       }
     ]
   },
