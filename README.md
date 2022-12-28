@@ -53,16 +53,19 @@ It should be an array of verification steps.
     "title": "The title of current quest step",
     "description": "The description of current quest step",
     "type": "quiz",
-    "quiz": {
-      "type": "radio",
-      "options": [
-        {
-          "key": "A",
-          "description": "Quiz option's description"
-        }
-      ],
-      "answer": "A"
-    }
+    "quiz": [
+      {
+        "type": "radio",
+        "question": "Quiz question",
+        "options": [
+          {
+            "key": "A",
+            "description": "Quiz option's description"
+          }
+        ],
+        "answer": "A"
+      }
+    ]
   },
 ]
 ```
