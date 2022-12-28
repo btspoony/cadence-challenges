@@ -30,8 +30,11 @@ It should be an array of verification steps.
 
 ```jsonc
 [
+  // Onchain verification schema
   {
     "title": "The title of current quest step",
+    "description": "The description of current quest step",
+    "type": "onchain",
     "code": "URL of the verification scripts' code",
     "schema": [
       {
@@ -44,6 +47,22 @@ It should be an array of verification steps.
       "expect": "return", // return or error; 'error' means some thing wrong when excuting this test
       "result": true // The result value of the execution for this test
     }
-  }
+  },
+  // Simple Quiz schema
+  {
+    "title": "The title of current quest step",
+    "description": "The description of current quest step",
+    "type": "quiz",
+    "quiz": {
+      "type": "radio",
+      "options": [
+        {
+          "key": "A",
+          "description": "Quiz option's description"
+        }
+      ],
+      "answer": "A"
+    }
+  },
 ]
 ```
