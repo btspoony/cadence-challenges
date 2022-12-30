@@ -2,15 +2,11 @@
 
 ## Prerequisites
 
-Make sure you have created a deployer account on Flow testnet
-
-Make sure your deployer account has Flow tokens
-
-Make sure to have [Flow CLI](https://developers.flow.com/tools/flow-cli/install) installed
-
-Mare sure to install Visual Studio Code
-
-Make sure to have Cadence extension installed in Visual Studio Code
+- Make sure you have created a deployer account on Flow testnet
+- Make sure your deployer account has Flow tokens
+- Make sure to have [Flow CLI](https://developers.flow.com/tools/flow-cli/install) installed
+- Mare sure to install Visual Studio Code
+- Make sure to have Cadence extension installed in Visual Studio Code
 
 ## Write your NFT smart contract
 
@@ -18,7 +14,7 @@ We are using Flow playground for writing the smart contract
 
 In Flow playground, you can use the ExampleNFT contract on account `0x04`
 
-https://play.flow.com/ff662c89-127e-4b93-a84d-97f2e4adb2ef?type=account&id=c537a46e-c093-41ce-a4e7-7304eb09e2fb&storage=none
+<https://play.flow.com/ff662c89-127e-4b93-a84d-97f2e4adb2ef?type=account&id=c537a46e-c093-41ce-a4e7-7304eb09e2fb&storage=none>
 
 ### Step 1: Rename contract
 
@@ -34,9 +30,8 @@ On line 101, 115, 131, 136-138, and 142 you will want to change the NFT informat
 
 ### Step 3: Setup your cadence folder
 
--   Create a folder with whatever name you want
-
--   Create flow.json
+- Create a folder with whatever name you want
+- Create flow.json
 
 Open your terminal or powershell and go to your newly created folder
 
@@ -44,12 +39,10 @@ Run the command `flow init` to initialize a flow.json
 
 ![flow.json](https://i.imgur.com/l3C0FCe.png)
 
--   Create a subfolder called `cadence` and inside that subfolder create another called `contracts`
-
--   Add your contracts from the Flow playground to your `contracts` folder
-
--   Make sure to change the import paths in each contract
-    ![import paths](https://i.imgur.com/FQsjFeS.png)
+- Create a subfolder called `cadence` and inside that subfolder create another called `contracts`
+- Add your contracts from the Flow playground to your `contracts` folder
+- Make sure to change the import paths in each contract  
+  ![import paths](https://i.imgur.com/FQsjFeS.png)
 
 If you have done the above correctly your setup should look like this
 
@@ -116,10 +109,10 @@ Replace the code in your flow.json with the following:
 }
 ```
 
--   Replace "ADD YOUR FLOW ADDRESS" with your flow address
--   Replace "ADD YOUR PRIVATE KEY" with your private key
--   Replace "ExampleNFT" with the name you have chosen
-    Note: Make sure not to upload your flow.json to github or anywhere online to keep your private key PRIVATE!
+- Replace "ADD YOUR FLOW ADDRESS" with your flow address
+- Replace "ADD YOUR PRIVATE KEY" with your private key
+- Replace "ExampleNFT" with the name you have chosen  
+  Note: Make sure not to upload your flow.json to github or anywhere online to keep your private key PRIVATE!
 
 ### Step 5: Deploy your contract
 

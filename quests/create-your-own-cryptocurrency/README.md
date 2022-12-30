@@ -2,15 +2,11 @@
 
 ## Prerequisites
 
-Make sure you have created a deployer account on Flow testnet
-
-Make sure your deployer account has Flow tokens
-
-Make sure to have [Flow CLI](https://developers.flow.com/tools/flow-cli/install) installed
-
-Mare sure to install Visual Studio Code
-
-Make sure to have Cadence extension installed in Visual Studio Code
+- Make sure you have created a deployer account on Flow testnet
+- Make sure your deployer account has Flow tokens
+- Make sure to have [Flow CLI](https://developers.flow.com/tools/flow-cli/install) installed
+- Mare sure to install Visual Studio Code
+- Make sure to have Cadence extension installed in Visual Studio Code
 
 ## Write your fungible token (FT) smart contract
 
@@ -18,7 +14,7 @@ We are using Flow playground for writing the smart contract
 
 In Flow playground, you can use the ExampleToken contract on account `0x05`
 
-https://play.flow.com/1f6d0e44-f487-4eb9-9780-3f3c026cbcf8?type=account&id=7d8c6c4b-8ce8-4d21-9272-8872aa82262e&storage=none
+<https://play.flow.com/1f6d0e44-f487-4eb9-9780-3f3c026cbcf8?type=account&id=7d8c6c4b-8ce8-4d21-9272-8872aa82262e&storage=none>
 
 ### Step 1: Rename contract
 
@@ -38,14 +34,11 @@ On line 121 and 127-133 you will want to change the fungible token information t
 
 Create a folder with whatever name you want
 
--   Create a subfolder called `cadence` and inside that subfolder create another called `contracts`
-
--   Add your contracts from the Flow playground to your `contracts` folder
-
--   Make sure to change the import paths in each contract
-    ![import paths](https://i.imgur.com/GIMiXZQ.png)
-
--   Create flow.json
+- Create a subfolder called `cadence` and inside that subfolder create another called `contracts`
+- Add your contracts from the Flow playground to your `contracts` folder
+- Make sure to change the import paths in each contract  
+  ![import paths](https://i.imgur.com/GIMiXZQ.png)
+- Create flow.json
 
 Open your terminal or powershell and go to your newly created folder
 
@@ -134,10 +127,10 @@ Replace the code in your flow.json with the following:
 }
 ```
 
--   Replace "ADD YOUR FLOW ADDRESS" with your flow address
--   Replace "ADD YOUR PRIVATE KEY" with your private key
--   Replace "ExampleToken" with the name you have chosen
-    Note: Make sure not to upload your flow.json to github or anywhere online to keep your private key PRIVATE!
+- Replace "ADD YOUR FLOW ADDRESS" with your flow address
+- Replace "ADD YOUR PRIVATE KEY" with your private key
+- Replace "ExampleToken" with the name you have chosen  
+  Note: Make sure not to upload your flow.json to github or anywhere online to keep your private key PRIVATE!
 
 ### Step 5: Deploy your contract
 
