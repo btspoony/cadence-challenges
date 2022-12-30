@@ -39,6 +39,7 @@ It should be an array of verification steps.
     "schema": [
       {
         "key": "parameter key",
+        "label": "parameter display label",
         "type": "Address" // The input type, Address|String|UInt64|...
       }
     ],
