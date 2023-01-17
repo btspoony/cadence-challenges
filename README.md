@@ -17,7 +17,7 @@ The folder structure:
 On-chain information:
 
 - `questKey`
-- URL of `README.md` and `verify.json`
+- URL of `verify.json`
 
 Off-chain information:
 
@@ -29,45 +29,48 @@ The schema of `verify.json`
 It should be an array of verification steps.
 
 ```jsonc
-[
-  // Onchain verification schema
-  {
-    "title": "The title of current quest step",
-    "description": "The description of current quest step",
-    "type": "onchain",
-    "code": "URL of the verification scripts' code",
-    "schema": [
-      {
-        "key": "parameter key",
-        "label": "parameter display label",
-        "type": "Address" // The input type, Address|String|UInt64|...
+{
+  "guide": "URL of the guide markdown", // Optional
+  "steps": [
+    // Onchain verification schema
+    {
+      "title": "The title of current quest step",
+      "description": "The description of current quest step",
+      "type": "onchain",
+      "code": "URL of the verification scripts' code",
+      "schema": [
+        {
+          "key": "parameter key",
+          "label": "parameter display label",
+          "type": "Address" // The input type, Address|String|UInt64|...
+        }
+      ],
+      "test": { // All tests should be OK, then quest passed
+        "network": "testnet",
+        "expect": "return", // return or error; 'error' means some thing wrong when excuting this test
+        "result": true // The result value of the execution for this test
       }
-    ],
-    "test": { // All tests should be OK, then quest passed
-      "network": "testnet",
-      "expect": "return", // return or error; 'error' means some thing wrong when excuting this test
-      "result": true // The result value of the execution for this test
-    }
-  },
-  // Simple Quiz schema
-  {
-    "title": "The title of current quest step",
-    "description": "The description of current quest step",
-    "type": "quiz",
-    "quiz": [
-      {
-        "type": "radio", // radio | checkbox
-        "question": "Quiz question",
-        "image": "(Optional) Quiz image",
-        "options": [
-          {
-            "key": "A",
-            "description": "Quiz option's description"
-          }
-        ],
-        "answer": "A" // Answer of checkbox should be joined by ','
-      }
-    ]
-  },
-]
+    },
+    // Simple Quiz schema
+    {
+      "title": "The title of current quest step",
+      "description": "The description of current quest step",
+      "type": "quiz",
+      "quiz": [
+        {
+          "type": "radio", // radio | checkbox
+          "question": "Quiz question",
+          "image": "(Optional) Quiz image",
+          "options": [
+            {
+              "key": "A",
+              "description": "Quiz option's description"
+            }
+          ],
+          "answer": "A" // Answer of checkbox should be joined by ','
+        }
+      ]
+    },
+  ]
+}
 ```
