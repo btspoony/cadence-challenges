@@ -1,27 +1,25 @@
-{
-  "steps": [
-    {
-      "title": "Create account by Flow CLI",
-      "description": "Create a new flow account and verify on-chain.",
-      "type": "onchain",
-      "code": "https://raw.githubusercontent.com/btspoony/cadence-challenges/main/quests/create-account/verify-step1.cdc",
-      "schema": [
-        {
-          "key": "acct",
-          "label": "Account",
-          "type": "Address"
-        },
-        {
-          "key": "pubKey",
-          "label": "Public Key",
-          "type": "String"
-        }
-      ],
-      "test": {
-        "network": "testnet",
-        "expect": "return",
-        "result": true
+[
+  {
+    "title": "Create account by Flow CLI",
+    "description": "Create a new flow account and verify on-chain.",
+    "type": "onchain",
+    "code": "https://raw.githubusercontent.com/btspoony/cadence-challenges/main/quests/create-account/verify-step1.cdc",
+    "schema": [
+      {
+        "key": "acct",
+        "label": "Account",
+        "type": "Address"
+      },
+      {
+        "key": "pubKey",
+        "label": "Public Key",
+        "type": "String"
       }
+    ],
+    "test": {
+      "network": "testnet",
+      "expect": "return",
+      "result": true
     }
-  ]
-}
+  }
+]

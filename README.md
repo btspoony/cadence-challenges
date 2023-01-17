@@ -10,28 +10,28 @@ The folder structure:
 - quests
 |- [questKey]
   |- README.md // The guide of current quest.
-  |- verify.json // The configuare file about how to verify the quest.
+  |- quest.json // The configuare file about how to verify the quest.
   |- *.cdc // The verification scripts for this quest
 ```
 
 On-chain information:
 
 - `questKey`
-- URL of `verify.json`
+- URL of quest `.json`
 
 Off-chain information:
 
 - Markdown contents of guide in `README.md`
-- Verification parameters and description in `verify.json`
-- Cadence verification scripts which were defined URLs in `verify.json`
+- Verification parameters and description in `quest.json`
+- Cadence verification scripts which were defined URLs in `quest.json`
 
-The schema of `verify.json`  
-It should be an array of verification steps.
+The schema of `quest.json`  
 
 ```jsonc
 {
   "guide": "URL of the guide markdown", // Optional
   "steps": [
+    // It should be an array of verification steps.
     // Onchain verification schema
     {
       "title": "The title of current quest step",
