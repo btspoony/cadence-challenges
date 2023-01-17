@@ -56,15 +56,16 @@ It should be an array of verification steps.
     "type": "quiz",
     "quiz": [
       {
-        "type": "radio",
+        "type": "radio", // radio | checkbox
         "question": "Quiz question",
+        "image": "(Optional) Quiz image",
         "options": [
           {
             "key": "A",
             "description": "Quiz option's description"
           }
         ],
-        "answer": "A"
+        "answer": "A" // Answer of checkbox should be joined by ','
       }
     ]
   },
