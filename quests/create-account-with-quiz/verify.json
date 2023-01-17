@@ -82,10 +82,12 @@
     "schema": [
       {
         "key": "acct",
+        "label": "Account",
         "type": "Address"
       },
       {
         "key": "pubKey",
+        "label": "Public Key",
         "type": "String"
       }
     ],
