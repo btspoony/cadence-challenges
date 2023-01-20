@@ -1,4 +1,365 @@
 {
   "guide": "https://raw.githubusercontent.com/emerald-dao/beginner-cadence-course/main/chapter2.0/day1/README.md",
-  "steps": []
+  "steps": [
+    {
+      "title": "Learn about contract basics",
+      "description": "",
+      "type": "quiz",
+      "quiz": [
+        {
+          "type": "radio",
+          "question": "What keyword defines a smart contract in your code?",
+          "options": [
+            {
+              "key": "A",
+              "description": "HelloWorld"
+            },
+            {
+              "key": "B",
+              "description": "smartcontract"
+            },
+            {
+              "key": "C",
+              "description": "contract"
+            },
+            {
+              "key": "D",
+              "description": ".cdc"
+            }
+          ],
+          "answer": "C"
+        },
+        {
+          "type": "radio",
+          "question": "What does it mean to deploy a contract?",
+          "options": [
+            {
+              "key": "A",
+              "description": "Sending the contract for review from peers"
+            },
+            {
+              "key": "B",
+              "description": "Give users the option to mint from your contract"
+            },
+            {
+              "key": "C",
+              "description": "To destroy your contract and start again"
+            },
+            {
+              "key": "D",
+              "description": "The action of moving your contract to be stored on a network"
+            }
+          ],
+          "answer": "D"
+        },
+        {
+          "type": "checkbox",
+          "question": "In the image below, identify what section has the 'state' & what section has the 'logic'. (select all that apply)",
+          "image": "https://lh5.googleusercontent.com/oporg2O88I-lR36S9hLnV6oj1k03CJ5x0bMdXNwMGRA6DEyFni-XE9TyU_3_VOwXq57Lu9OFOLsdoW1cwefTHe2CbZUvXz0zSgL_oznWtHuvIsjA-uwNKmAJPW0K63ZeNg=w740",
+          "options": [
+            {
+              "key": "A",
+              "description": "Section 1 - State"
+            },
+            {
+              "key": "B",
+              "description": "Section 1 - Logic"
+            },
+            {
+              "key": "C",
+              "description": "Section 2 - State"
+            },
+            {
+              "key": "D",
+              "description": "Section 2 - Logic"
+            },
+            {
+              "key": "E",
+              "description": "Section 3 - State"
+            },
+            {
+              "key": "F",
+              "description": "Section 3 - Logic"
+            }
+          ],
+          "answer": "A,D,F"
+        },
+        {
+          "type": "radio",
+          "question": "Where is a smart contract stored?",
+          "options": [
+            {
+              "key": "A",
+              "description": "in your account"
+            },
+            {
+              "key": "B",
+              "description": "on the blockchain"
+            },
+            {
+              "key": "C",
+              "description": "inside Emerald City DAO"
+            },
+            {
+              "key": "D",
+              "description": "it's not stored"
+            }
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "title": "Learn about implementation",
+      "description": "",
+      "type": "quiz",
+      "quiz": [
+        {
+          "type": "radio",
+          "question": "A Flow blockchain address...(select all that apply)",
+          "options": [
+            {
+              "key": "A",
+              "description": "Are able to be destroyed"
+            },
+            {
+              "key": "B",
+              "description": "Costs you money to create"
+            },
+            {
+              "key": "C",
+              "description": "Is linked to your 'account'"
+            },
+            {
+              "key": "D",
+              "description": "Starts with 0x"
+            }
+          ],
+          "answer": "C,D"
+        },
+        {
+          "type": "radio",
+          "question": "From this image where is the contract stored?",
+          "image": "https://lh6.googleusercontent.com/U01XtyE4GfdgbwJwImkrO7IMuvO4otNUGNgrF1lRZIZy8ostcTmc1dEqqwNhg7Ix7IAbmxsyjLpyK8mOJXoMX2CJhkBnqZKDdwD45R_tvteDXJLt_Kk5n193xG2Xj9nivA=w740",
+          "options": [
+            {
+              "key": "A",
+              "description": ".phoneNumber"
+            },
+            {
+              "key": "B",
+              "description": "0x01"
+            },
+            {
+              "key": "C",
+              "description": "Nowhere"
+            },
+            {
+              "key": "D",
+              "description": "HelloWorld"
+            }
+          ],
+          "answer": "B"
+        },
+        {
+          "type": "radio",
+          "question": "Using the same image from our last question what line is calling the function of the 'HelloWorld' contract?",
+          "image": "https://lh6.googleusercontent.com/U01XtyE4GfdgbwJwImkrO7IMuvO4otNUGNgrF1lRZIZy8ostcTmc1dEqqwNhg7Ix7IAbmxsyjLpyK8mOJXoMX2CJhkBnqZKDdwD45R_tvteDXJLt_Kk5n193xG2Xj9nivA=w740",
+          "options": [
+            {
+              "key": "A",
+              "description": "1 - HelloWorld"
+            },
+            {
+              "key": "B",
+              "description": "3 - main"
+            },
+            {
+              "key": "C",
+              "description": "4 - .phoneNumber"
+            },
+            {
+              "key": "D",
+              "description": "5 - }"
+            }
+          ],
+          "answer": "C"
+        },
+        {
+          "type": "radio",
+          "question": "'pub' and 'access(all)' mean the same thing.",
+          "options": [
+            {
+              "key": "A",
+              "description": "True"
+            },
+            {
+              "key": "B",
+              "description": "False"
+            }
+          ],
+          "answer": "A"
+        },
+        {
+          "type": "radio",
+          "question": "'let' means...",
+          "options": [
+            {
+              "key": "A",
+              "description": "You can't change your variable once you've initialized it"
+            },
+            {
+              "key": "B",
+              "description": "You were interrupted during coding."
+            },
+            {
+              "key": "C",
+              "description": "The code will 'let' you change it after"
+            },
+            {
+              "key": "D",
+              "description": "All of the above"
+            }
+          ],
+          "answer": "A"
+        },
+        {
+          "type": "checkbox",
+          "question": "From the options below, what words in this contract can be changed without impacting the function of the contract itself (select all that apply)",
+          "image": "https://lh4.googleusercontent.com/Nbq4fz7LBCmq224pJg9vSH3tlpem4mhISyQOjIlnUaHkzlzLx3U6-dSPy8SXjRitbgMi37G8fTxCkWLksj7KekO_vKAIUOVVgWu5Kl9zhJjlsOA7uWEn-LSoVB0s2vwXlQ=w740",
+          "options": [
+            {
+              "key": "A",
+              "description": "phoneNumber"
+            },
+            {
+              "key": "B",
+              "description": "Int"
+            },
+            {
+              "key": "C",
+              "description": "hello"
+            },
+            {
+              "key": "D",
+              "description": "return.self"
+            },
+            {
+              "key": "E",
+              "description": "HelloWorld"
+            }
+          ],
+          "answer": "C,E"
+        },
+        {
+          "type": "radio",
+          "question": "What is an example of specifying a type in Cadence?",
+          "options": [
+            {
+              "key": "A",
+              "description": "& String"
+            },
+            {
+              "key": "B",
+              "description": "@ String"
+            },
+            {
+              "key": "C",
+              "description": "== String"
+            },
+            {
+              "key": "D",
+              "description": ": String"
+            }
+          ],
+          "answer": "D"
+        },
+        {
+          "type": "radio",
+          "question": "In a contract, where do you initialize all your states?",
+          "options": [
+            {
+              "key": "A",
+              "description": "pub fun main: { }"
+            },
+            {
+              "key": "B",
+              "description": "pub let name:"
+            },
+            {
+              "key": "C",
+              "description": "init () { }"
+            },
+            {
+              "key": "D",
+              "description": "you do this in a script"
+            }
+          ],
+          "answer": "C"
+        },
+        {
+          "type": "radio",
+          "question": "What is missing from this script?",
+          "image": "https://lh3.googleusercontent.com/WWUajhNhUB1PBx31AKFu1fTX1p49vt0WJn6h6a6z13zmh1M0p0zRrHJ4lfC-28Uh25PEm1MzxzWx4HiGGVpLir6tjmKlMN84sHSCUXL8DvWLoWqlrBTOKu20PLUi4QQYXw=w740",
+          "options": [
+            {
+              "key": "A",
+              "description": "a return type"
+            },
+            {
+              "key": "B",
+              "description": "a initializer"
+            },
+            {
+              "key": "C",
+              "description": "a variable"
+            },
+            {
+              "key": "D",
+              "description": "a function"
+            }
+          ],
+          "answer": "A"
+        },
+        {
+          "type": "radio",
+          "question": "What is an example of an access modifier? (select all that apply)",
+          "options": [
+            {
+              "key": "A",
+              "description": "access(all)"
+            },
+            {
+              "key": "B",
+              "description": "var"
+            },
+            {
+              "key": "C",
+              "description": "pub"
+            },
+            {
+              "key": "D",
+              "description": "fun"
+            }
+          ],
+          "answer": "A,C"
+        },
+        {
+          "type": "radio",
+          "question": "Can you add a function to a contract after it has been deployed to the network?",
+          "options": [
+            {
+              "key": "A",
+              "description": "Yes"
+            },
+            {
+              "key": "B",
+              "description": "No"
+            }
+          ],
+          "answer": "A"
+        }
+      ]
+    }
+  ]
 }
