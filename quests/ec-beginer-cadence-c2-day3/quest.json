@@ -8,141 +8,143 @@
       "quiz": [
         {
           "type": "radio",
-          "question": "",
+          "question": "What is an array?",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "A map of keys to values"
             },
             {
               "key": "B",
-              "description": ""
+              "description": "A dictionary of elements"
             },
             {
               "key": "C",
-              "description": ""
+              "description": "A resource of values"
             },
             {
               "key": "D",
-              "description": ""
+              "description": "A list of elements"
             }
           ],
-          "answer": ""
+          "answer": "D"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "Which symbol is used when declaring an array type?",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "->"
             },
             {
               "key": "B",
-              "description": ""
+              "description": ":"
             },
             {
               "key": "C",
-              "description": ""
+              "description": "{ }"
             },
             {
               "key": "D",
-              "description": ""
+              "description": "[ ]"
             }
           ],
-          "answer": ""
+          "answer": "D"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "What is a dictionary?",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "A map of keys to values"
             },
             {
               "key": "B",
-              "description": ""
+              "description": "A dictionary of elements"
             },
             {
               "key": "C",
-              "description": ""
+              "description": "A resource of values"
             },
             {
               "key": "D",
-              "description": ""
+              "description": "A list of elements"
             }
           ],
-          "answer": ""
+          "answer": "A"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "Which symbol is used when declaring a dictionary type?",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "->"
             },
             {
               "key": "B",
-              "description": ""
+              "description": "[ ]"
             },
             {
               "key": "C",
-              "description": ""
+              "description": ":"
             },
             {
               "key": "D",
-              "description": ""
+              "description": "{ }"
             }
           ],
-          "answer": ""
+          "answer": "D"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "What does line 10 & 11 do when our contract is ran?",
+          "image": "https://lh5.googleusercontent.com/iraTr_wjJQJL9SE1tFehRX3JoreSr0DFYgjQc__6wREdMZRRCiclukFIXiB8gCk70t0W1ko5sAT4pb209QZJpILQITfZmthxqvrBs-PDs7XZg3pMSZL1-UHrG9YJCeIgNg=w740",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "Stores 'songname' in 'songs'"
             },
             {
               "key": "B",
-              "description": ""
+              "description": "Creates a variable named 'songs'"
             },
             {
               "key": "C",
-              "description": ""
+              "description": "Nothing, someone forgot to put code there"
             },
             {
               "key": "D",
-              "description": ""
+              "description": "Creates an empty array"
             }
           ],
-          "answer": ""
+          "answer": "D"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "Based off of the contract from the last question - Why won't this script run and return an array?",
+          "image": "https://lh4.googleusercontent.com/sI-1idmAdqkQR4aTvOjV3C5n3EvnxsLvhTNfSvGICOQeQyu6rPRkqCAVKsSxN2RHmzf9Orjjc3MAmrBPY-I7al-Kxx-_4Z_y6aJApflhXpOrnfS07CmAm8rGpp2NBhqJGQ=w740",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "It's a dictionary type"
             },
             {
               "key": "B",
-              "description": ""
+              "description": "Return type is not specified as an array"
             },
             {
               "key": "C",
-              "description": ""
+              "description": "The Beetles aren't allowed on Flow"
             },
             {
               "key": "D",
-              "description": ""
+              "description": "You don't use 'return' for an array"
             }
           ],
-          "answer": ""
+          "answer": "B"
         },
         {
           "type": "radio",
