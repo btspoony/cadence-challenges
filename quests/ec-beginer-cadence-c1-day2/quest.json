@@ -1,4 +1,168 @@
 {
   "guide": "https://raw.githubusercontent.com/emerald-dao/beginner-cadence-course/main/chapter1.0/day2/README.md",
-  "steps": []
+  "steps": [
+    {
+      "title": "Learn about NFT (Non-Fungible Token)",
+      "description": "",
+      "type": "quiz",
+      "quiz": [
+        {
+          "type": "radio",
+          "question": "An NFT (Non-Fungible Token) is a unique token that exists on a blockchain and can not be re-created or replaced.",
+          "options": [
+            {
+              "key": "A",
+              "description": "True"
+            },
+            {
+              "key": "B",
+              "description": "False"
+            }
+          ],
+          "answer": "A"
+        },
+        {
+          "type": "checkbox",
+          "question": "What is an example of something that is non-fungible? (select all that apply)",
+          "options": [
+            {
+              "key": "A",
+              "description": "Baseball Cards"
+            },
+            {
+              "key": "B",
+              "description": "Diamonds"
+            },
+            {
+              "key": "C",
+              "description": "Gold"
+            },
+            {
+              "key": "D",
+              "description": "A dollar bill"
+            }
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "title": "Learn about Flow blockchain",
+      "description": "",
+      "type": "quiz",
+      "quiz": [
+        {
+          "type": "radio",
+          "question": "Who created Flow?",
+          "options": [
+            {
+              "key": "A",
+              "description": "Crypto Kitties"
+            },
+            {
+              "key": "B",
+              "description": "Dapper Labs"
+            },
+            {
+              "key": "C",
+              "description": "Cadence Crushers"
+            },
+            {
+              "key": "D",
+              "description": "Dapper Lads"
+            }
+          ],
+          "answer": "B"
+        },
+        {
+          "type": "radio",
+          "question": "Cryptokitties rendered Ethereum unusable due to network congestion?",
+          "options": [
+            {
+              "key": "A",
+              "description": "True"
+            },
+            {
+              "key": "B",
+              "description": "False"
+            }
+          ],
+          "answer": "A"
+        },
+        {
+          "type": "radio",
+          "question": "What programming language does Flow use?",
+          "options": [
+            {
+              "key": "A",
+              "description": "Sync"
+            },
+            {
+              "key": "B",
+              "description": "Rhythm"
+            },
+            {
+              "key": "C",
+              "description": "Harmonic"
+            },
+            {
+              "key": "D",
+              "description": "Cadence"
+            }
+          ],
+          "answer": "D"
+        },
+        {
+          "type": "radio",
+          "question": "Flow is...? (select all that apply)",
+          "options": [
+            {
+              "key": "A",
+              "description": "used with popular DApps, including NBA Top Shot & UFC Strike."
+            },
+            {
+              "key": "B",
+              "description": "an emerging blockchain."
+            },
+            {
+              "key": "C",
+              "description": "cheaper than Ethereum to perform transactions on."
+            },
+            {
+              "key": "D",
+              "description": "a fork of Ethereum."
+            },
+            {
+              "key": "E",
+              "description": "lacking learning resources."
+            }
+          ],
+          "answer": "A,B,C"
+        },
+        {
+          "type": "radio",
+          "question": "What are the \"Cadence Programming Language Pillars\"?",
+          "options": [
+            {
+              "key": "A",
+              "description": "Speed, Scalability, Trust, Automation & Cloud Computing"
+            },
+            {
+              "key": "B",
+              "description": "Security, Adaptive Learning, Disruptive, Environmentally Conscious & Governance"
+            },
+            {
+              "key": "C",
+              "description": "Agile, Cross-Platform, Enterprise Performance, & Artificial Intelligence"
+            },
+            {
+              "key": "D",
+              "description": "Safety & Security, Clarity, Approachability, Developer Experience & Resource Oriented Programming."
+            }
+          ],
+          "answer": "D"
+        }
+      ]
+    }
+  ]
 }

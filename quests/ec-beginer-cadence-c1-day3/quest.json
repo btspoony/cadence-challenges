@@ -1,4 +1,235 @@
 {
   "guide": "https://raw.githubusercontent.com/emerald-dao/beginner-cadence-course/main/chapter1.5%20(optional)/README.md",
-  "steps": []
+  "steps": [
+    {
+      "title": "Learn about 'variable'",
+      "description": "",
+      "type": "quiz",
+      "quiz": [
+        {
+          "type": "radio",
+          "question": "What is a syntax?",
+          "options": [
+            {
+              "key": "A",
+              "description": "A list of words, that make up a programming language."
+            },
+            {
+              "key": "B",
+              "description": "A shared way of communicating between other programming languages."
+            },
+            {
+              "key": "C",
+              "description": "Another programming language like, Javascript, Python, C++, HTML, CSS, and many others."
+            },
+            {
+              "key": "D",
+              "description": "A structure of language that allows you to communicate with the computer."
+            }
+          ],
+          "answer": "A"
+        },
+        {
+          "type": "radio",
+          "question": "What is an example of declaring 'x' as a variable?",
+          "options": [
+            {
+              "key": "A",
+              "description": "var x = 1"
+            },
+            {
+              "key": "B",
+              "description": "x == 1"
+            },
+            {
+              "key": "C",
+              "description": "x = 1"
+            },
+            {
+              "key": "D",
+              "description": "log(x)"
+            }
+          ],
+          "answer": "A"
+        },
+        {
+          "type": "radio",
+          "question": "Integer, String, UInt64 are all?",
+          "options": [
+            {
+              "key": "A",
+              "description": "Types"
+            },
+            {
+              "key": "B",
+              "description": "Resources"
+            },
+            {
+              "key": "C",
+              "description": "Variables"
+            },
+            {
+              "key": "D",
+              "description": "Functions"
+            }
+          ],
+          "answer": "A"
+        },
+        {
+          "type": "radio",
+          "question": "\"I am level 99\" is a String",
+          "options": [
+            {
+              "key": "A",
+              "description": "True"
+            },
+            {
+              "key": "B",
+              "description": "False"
+            }
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "title": "Learn about 'function'",
+      "description": "",
+      "type": "quiz",
+      "quiz": [
+        {
+          "type": "radio",
+          "question": "A 'function' is...",
+          "options": [
+            {
+              "key": "A",
+              "description": "used to execute a piece of code when it is called."
+            },
+            {
+              "key": "B",
+              "description": "a frightening term used by coders."
+            },
+            {
+              "key": "C",
+              "description": "a set of rules to help you code."
+            },
+            {
+              "key": "D",
+              "description": "a place where information is stored."
+            }
+          ],
+          "answer": "A"
+        },
+        {
+          "type": "radio",
+          "question": "What is the most basic function in Cadence?",
+          "options": [
+            {
+              "key": "A",
+              "description": "log"
+            },
+            {
+              "key": "B",
+              "description": "run"
+            },
+            {
+              "key": "C",
+              "description": "lit"
+            },
+            {
+              "key": "D",
+              "description": "fam"
+            }
+          ],
+          "answer": "A"
+        },
+        {
+          "type": "radio",
+          "question": "Functions NEVER take in things called arguments (aka parameters)?",
+          "options": [
+            {
+              "key": "A",
+              "description": "True"
+            },
+            {
+              "key": "B",
+              "description": "False"
+            }
+          ],
+          "answer": "B"
+        },
+        {
+          "type": "radio",
+          "question": "Which line is the argument (aka parameters) on?",
+          "image": "https://lh6.googleusercontent.com/MCKfRGt194Remo59BbigSzAH_dUTkBJ2RfjAYd5VaU4d-qcYmTTju6I1kYOdCvhsBgKkPB9BJnXQO6YQKqlNRn5_eqpSdfiv26bLXL04gVuKvnLHuUbucmJvU9Ut4CekQg=w578",
+          "options": [
+            {
+              "key": "A",
+              "description": "1 - pub fun main() {"
+            },
+            {
+              "key": "B",
+              "description": "2 - (\"Hello there!\")"
+            },
+            {
+              "key": "C",
+              "description": "3 - }"
+            },
+            {
+              "key": "D",
+              "description": "All of the above"
+            }
+          ],
+          "answer": "A"
+        },
+        {
+          "type": "radio",
+          "question": "What line defines the function named 'aFunction', and what line calls the function?",
+          "image": "https://lh5.googleusercontent.com/Q0xbjj_LtqxOC7y4gl74kMIjubDWlMDQmPzKo3Vkd0fb-cGv5PF-k31T8g6z7jaUwx68SWcTwu4WG7mBldaAdgb7s2u4gR-BZWr0gc50sOIEPkyMxIrSlMbgis1WRZOzWg=w740",
+          "options": [
+            {
+              "key": "A",
+              "description": "6, 3"
+            },
+            {
+              "key": "B",
+              "description": "1, 6"
+            },
+            {
+              "key": "C",
+              "description": "6, 1"
+            },
+            {
+              "key": "D",
+              "description": "3, 6"
+            }
+          ],
+          "answer": "A"
+        },
+        {
+          "type": "radio",
+          "question": "Functions are useful because...",
+          "options": [
+            {
+              "key": "A",
+              "description": "they save you time."
+            },
+            {
+              "key": "B",
+              "description": "they have the word 'fun' in them, and lighten the mood."
+            },
+            {
+              "key": "C",
+              "description": "they permanently store information."
+            },
+            {
+              "key": "D",
+              "description": "they make you look smart."
+            }
+          ],
+          "answer": "A"
+        }
+      ]
+    }
+  ]
 }

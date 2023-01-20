@@ -1,4 +1,202 @@
 {
   "guide": "https://raw.githubusercontent.com/emerald-dao/beginner-cadence-course/main/chapter1.0/day1/README.md",
-  "steps": []
+  "steps": [
+    {
+      "title": "Learn about blockchain",
+      "description": "",
+      "type": "quiz",
+      "quiz": [
+        {
+          "type": "radio",
+          "question": "What is a blockchain?",
+          "options": [
+            {
+              "key": "A",
+              "description": "A group of computers that are connected by cables in a local neighbourhood."
+            },
+            {
+              "key": "B",
+              "description": "A chain of blocks that can be stacked to speed up the network."
+            },
+            {
+              "key": "C",
+              "description": "A centralized computer used to keep track of transactions on the network."
+            },
+            {
+              "key": "D",
+              "description": "A decentralized immutable ledger, that is used to keep track of transactions, and store information."
+            }
+          ],
+          "answer": "D"
+        },
+        {
+          "type": "checkbox",
+          "question": "What are the key features of a blockchain?",
+          "options": [
+            {
+              "key": "A",
+              "description": "Open"
+            },
+            {
+              "key": "B",
+              "description": "Decentralized"
+            },
+            {
+              "key": "C",
+              "description": "Database"
+            },
+            {
+              "key": "D",
+              "description": "Public"
+            }
+          ],
+          "answer": "A,B,C,D"
+        }
+      ]
+    },
+    {
+      "title": "Learn about Smart Contracts",
+      "description": "",
+      "type": "quiz",
+      "quiz": [
+        {
+          "type": "radio",
+          "question": "What is a smart contract?",
+          "options": [
+            {
+              "key": "A",
+              "description": "A set of rules for transactions on the blockchain determined by prestigious universities."
+            },
+            {
+              "key": "B",
+              "description": "A set of pre-determined rules, used to perform tasks automatically on the blockchain."
+            },
+            {
+              "key": "C",
+              "description": "A safe way to transfer cryptocurrency to another person without a middleman"
+            },
+            {
+              "key": "D",
+              "description": "A contract physically signed by two humans, and stored in a cabinet."
+            }
+          ],
+          "answer": "B"
+        },
+        {
+          "type": "radio",
+          "question": "What are the key features of a smart contract?",
+          "options": [
+            {
+              "key": "A",
+              "description": "Centralized, Safe, On-Chain"
+            },
+            {
+              "key": "B",
+              "description": "Love, Hope, Peace, Trust & Integrity"
+            },
+            {
+              "key": "C",
+              "description": "Speed, Efficiency, Accuracy, Trust & Transparency"
+            },
+            {
+              "key": "D",
+              "description": "Reversible, Accuracy, Efficiency, Universal & Hidden"
+            }
+          ],
+          "answer": "C"
+        },
+        {
+          "type": "radio",
+          "question": "What are the downsides to a smart contract?",
+          "options": [
+            {
+              "key": "A",
+              "description": "Complicated"
+            },
+            {
+              "key": "B",
+              "description": "Irreversible"
+            },
+            {
+              "key": "C",
+              "description": "Potentially malicious"
+            },
+            {
+              "key": "D",
+              "description": "All of the above"
+            }
+          ],
+          "answer": "D"
+        }
+      ]
+    },
+    {
+      "title": "Learn about DApp and on-chain interaction",
+      "description": "",
+      "type": "quiz",
+      "quiz": [
+        {
+          "type": "radio",
+          "question": "Which one changes data on the blockchain?",
+          "options": [
+            {
+              "key": "A",
+              "description": "Transaction"
+            },
+            {
+              "key": "B",
+              "description": "Script"
+            }
+          ],
+          "answer": "A"
+        },
+        {
+          "type": "radio",
+          "question": "What is the name of environment where you can test your applications?",
+          "options": [
+            {
+              "key": "A",
+              "description": "Truthnet"
+            },
+            {
+              "key": "B",
+              "description": "Trustnet"
+            },
+            {
+              "key": "C",
+              "description": "Testnet"
+            },
+            {
+              "key": "D",
+              "description": "Trunknet"
+            }
+          ],
+          "answer": "C"
+        },
+        {
+          "type": "radio",
+          "question": "What does DApp shortened for?",
+          "options": [
+            {
+              "key": "A",
+              "description": "Digital Application"
+            },
+            {
+              "key": "B",
+              "description": "Direct Application"
+            },
+            {
+              "key": "C",
+              "description": "Driven Application"
+            },
+            {
+              "key": "D",
+              "description": "Decentralized Application"
+            }
+          ],
+          "answer": "D"
+        }
+      ]
+    }
+  ]
 }
