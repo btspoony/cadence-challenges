@@ -1,4 +1,249 @@
 {
   "guide": "https://raw.githubusercontent.com/emerald-dao/beginner-cadence-course/main/chapter2.0/day2/README.md",
-  "steps": []
+  "steps": [
+    {
+      "title": "Learning validation quiz",
+      "description": "",
+      "type": "quiz",
+      "quiz": [
+        {
+          "type": "checkbox",
+          "question": "A script...(select all that apply)",
+          "options": [
+            {
+              "key": "A",
+              "description": "free"
+            },
+            {
+              "key": "B",
+              "description": "is stored in your account"
+            },
+            {
+              "key": "C",
+              "description": "can return something"
+            },
+            {
+              "key": "D",
+              "description": "views states"
+            }
+          ],
+          "answer": "A,C,D"
+        },
+        {
+          "type": "checkbox",
+          "question": "A transaction...(select all that apply)",
+          "options": [
+            {
+              "key": "A",
+              "description": "modifies states"
+            },
+            {
+              "key": "B",
+              "description": "costs money (\"gas\")"
+            },
+            {
+              "key": "C",
+              "description": "views states"
+            },
+            {
+              "key": "D",
+              "description": "Is faster than a script"
+            }
+          ],
+          "answer": "A,B"
+        },
+        {
+          "type": "radio",
+          "question": "What phases are involved in a transaction?",
+          "options": [
+            {
+              "key": "A",
+              "description": "prepare & execute"
+            },
+            {
+              "key": "B",
+              "description": "state & logic"
+            },
+            {
+              "key": "C",
+              "description": "trust & honour"
+            },
+            {
+              "key": "D",
+              "description": "function & main"
+            }
+          ],
+          "answer": "A"
+        },
+        {
+          "type": "radio",
+          "question": "On Flow you store NFTs",
+          "options": [
+            {
+              "key": "A",
+              "description": "On Lilico"
+            },
+            {
+              "key": "B",
+              "description": "In a smart contract"
+            },
+            {
+              "key": "C",
+              "description": "In your account"
+            },
+            {
+              "key": "D",
+              "description": "none of the above"
+            }
+          ],
+          "answer": "C"
+        },
+        {
+          "type": "radio",
+          "question": "What 'type' gives someone access to your account?",
+          "options": [
+            {
+              "key": "A",
+              "description": "access(account)"
+            },
+            {
+              "key": "B",
+              "description": "AuthAccount"
+            },
+            {
+              "key": "C",
+              "description": "access(all)"
+            },
+            {
+              "key": "D",
+              "description": "pub var"
+            }
+          ],
+          "answer": "B"
+        },
+        {
+          "type": "radio",
+          "question": "Someone can access your account without you signing for this access.",
+          "options": [
+            {
+              "key": "A",
+              "description": "True"
+            },
+            {
+              "key": "B",
+              "description": "False"
+            }
+          ],
+          "answer": "B"
+        },
+        {
+          "type": "radio",
+          "question": "We wanted a way to change the variable 'fruits'. What is wrong with this code?",
+          "image": "https://lh4.googleusercontent.com/nQ5F_ZELEHpb4TypS9ph__sGzSA51Duz_P514t-9RhHbBD0OTOUgcM6cAH_nquGx8-IQqbaMxVxFntev_9NfIaD5R-Lw1Uxqr77aPi99_8cAwlzczV6b42nl0Frkk6O4cQ=w740",
+          "options": [
+            {
+              "key": "A",
+              "description": "Using let instead of var."
+            },
+            {
+              "key": "B",
+              "description": "Contract has not been deployed."
+            },
+            {
+              "key": "C",
+              "description": "Nothing, it's playground."
+            },
+            {
+              "key": "D",
+              "description": "Return type is incorrect."
+            }
+          ],
+          "answer": "A"
+        },
+        {
+          "type": "radio",
+          "question": "When we run the transaction our variable 'fruits' will change from \"Apple\" to...",
+          "image": "https://lh5.googleusercontent.com/fgr7F_20Q_V0pi55AhyhGmWAt1QEEMBfEQe7-UvVV_ApQr5BucW5q3Igjfr-B7z75mE7UqcIrH8ODFEM66klvUVpXcG23Ez0uRMLfpY4ZmI4WvFQSp0SwBkn66zd1GFKRQ=w740",
+          "options": [
+            {
+              "key": "A",
+              "description": "\"Apple\""
+            },
+            {
+              "key": "B",
+              "description": "\"Strawberry\""
+            },
+            {
+              "key": "C",
+              "description": "\"Apple\", \"Strawberry\""
+            },
+            {
+              "key": "D",
+              "description": "Nil"
+            }
+          ],
+          "answer": "B"
+        },
+        {
+          "type": "radio",
+          "question": "In our transaction where did we change the state of our variable?",
+          "options": [
+            {
+              "key": "A",
+              "description": "prepare"
+            },
+            {
+              "key": "B",
+              "description": "execute"
+            }
+          ],
+          "answer": "execute"
+        },
+        {
+          "type": "radio",
+          "question": "What does line 9 & 10 do?",
+          "image": "https://lh5.googleusercontent.com/bEgwSIgsxPsUHpXXed9YFe72DlHduDmoFLRcIzEt-gXhGT1XnmBZDRlIBNOQvLqnwi2tbYxy0otJFec1mRoDWgc6MgJseo5fCLB-SEdcPrdRER0PQOcigJ7rPVZKkzTjTw=w740",
+          "options": [
+            {
+              "key": "A",
+              "description": "Renames the contract to 'fruits'"
+            },
+            {
+              "key": "B",
+              "description": "Take in a 'newFruit' that is a string."
+            },
+            {
+              "key": "C",
+              "description": "Renames 'fruits' to 'newFruit'."
+            }
+          ],
+          "answer": "B"
+        },
+        {
+          "type": "radio",
+          "question": "Using the contract from our last question, and the transaction below, what would the code look like in our execute phase to call 'changesalad' with a user input? ",
+          "image": "https://lh4.googleusercontent.com/d22BGp0LGuYZwdE06n37diHLZOp1HqjfcmZv58ye7QpirIbMJcCOG8n29AoO8lgqGOWFCoVjSGWjDkOqEd1szj1acmD3xxMW-gtkP8AO3Vpitn20lHdVKOTLPPh4n5LUhQ=w740",
+          "options": [
+            {
+              "key": "A",
+              "description": "FruitSalad.changesalad(fruits: changeFruitSalad)"
+            },
+            {
+              "key": "B",
+              "description": "FruitSalad.changesalad(newFruit: changeFruitSalad)"
+            },
+            {
+              "key": "C",
+              "description": "FruitSalad.changesalad(changeFruitSalad: fruits)"
+            },
+            {
+              "key": "D",
+              "description": "FruitSalad.changesalad(changeFruitSalad: newFruit)"
+            }
+          ],
+          "answer": "B"
+        }
+      ]
+    }
+  ]
 }

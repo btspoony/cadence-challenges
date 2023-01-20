@@ -1,4 +1,219 @@
 {
   "guide": "https://raw.githubusercontent.com/emerald-dao/beginner-cadence-course/main/chapter3.0/day4/README.md",
-  "steps": []
+  "steps": [
+    {
+      "title": "Learning validation quiz",
+      "description": "",
+      "type": "quiz",
+      "quiz": [
+        {
+          "type": "radio",
+          "question": "",
+          "options": [
+            {
+              "key": "A",
+              "description": ""
+            },
+            {
+              "key": "B",
+              "description": ""
+            },
+            {
+              "key": "C",
+              "description": ""
+            },
+            {
+              "key": "D",
+              "description": ""
+            }
+          ],
+          "answer": ""
+        },
+        {
+          "type": "radio",
+          "question": "",
+          "options": [
+            {
+              "key": "A",
+              "description": ""
+            },
+            {
+              "key": "B",
+              "description": ""
+            },
+            {
+              "key": "C",
+              "description": ""
+            },
+            {
+              "key": "D",
+              "description": ""
+            }
+          ],
+          "answer": ""
+        },
+        {
+          "type": "radio",
+          "question": "",
+          "options": [
+            {
+              "key": "A",
+              "description": ""
+            },
+            {
+              "key": "B",
+              "description": ""
+            },
+            {
+              "key": "C",
+              "description": ""
+            },
+            {
+              "key": "D",
+              "description": ""
+            }
+          ],
+          "answer": ""
+        },
+        {
+          "type": "radio",
+          "question": "",
+          "options": [
+            {
+              "key": "A",
+              "description": ""
+            },
+            {
+              "key": "B",
+              "description": ""
+            },
+            {
+              "key": "C",
+              "description": ""
+            },
+            {
+              "key": "D",
+              "description": ""
+            }
+          ],
+          "answer": ""
+        },
+        {
+          "type": "radio",
+          "question": "",
+          "options": [
+            {
+              "key": "A",
+              "description": ""
+            },
+            {
+              "key": "B",
+              "description": ""
+            },
+            {
+              "key": "C",
+              "description": ""
+            },
+            {
+              "key": "D",
+              "description": ""
+            }
+          ],
+          "answer": ""
+        },
+        {
+          "type": "radio",
+          "question": "",
+          "options": [
+            {
+              "key": "A",
+              "description": ""
+            },
+            {
+              "key": "B",
+              "description": ""
+            },
+            {
+              "key": "C",
+              "description": ""
+            },
+            {
+              "key": "D",
+              "description": ""
+            }
+          ],
+          "answer": ""
+        },
+        {
+          "type": "radio",
+          "question": "",
+          "options": [
+            {
+              "key": "A",
+              "description": ""
+            },
+            {
+              "key": "B",
+              "description": ""
+            },
+            {
+              "key": "C",
+              "description": ""
+            },
+            {
+              "key": "D",
+              "description": ""
+            }
+          ],
+          "answer": ""
+        },
+        {
+          "type": "radio",
+          "question": "",
+          "options": [
+            {
+              "key": "A",
+              "description": ""
+            },
+            {
+              "key": "B",
+              "description": ""
+            },
+            {
+              "key": "C",
+              "description": ""
+            },
+            {
+              "key": "D",
+              "description": ""
+            }
+          ],
+          "answer": ""
+        },
+        {
+          "type": "radio",
+          "question": "",
+          "options": [
+            {
+              "key": "A",
+              "description": ""
+            },
+            {
+              "key": "B",
+              "description": ""
+            },
+            {
+              "key": "C",
+              "description": ""
+            },
+            {
+              "key": "D",
+              "description": ""
+            }
+          ],
+          "answer": ""
+        }
+      ]
+    }
+  ]
 }
