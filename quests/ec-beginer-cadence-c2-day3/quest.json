@@ -148,72 +148,173 @@
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "In this array example, which name is located at index 2?",
+          "image": "https://lh4.googleusercontent.com/RdIhsm0Dz-K0yUpHWGK6_1VYeFZMib3H3j-2tZC67E2MsEFOHnLOe2u_TwldbNoYtuLiO2XhHDo-arV1kDmmOrnbai2lvYsbIoIsFZtwwdkm40oWD4e5gMQhexbQNpBnuA=w740",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "Matthew"
             },
             {
               "key": "B",
-              "description": ""
+              "description": "Mark"
             },
             {
               "key": "C",
-              "description": ""
+              "description": "Luke"
             },
             {
               "key": "D",
-              "description": ""
+              "description": "John"
             }
           ],
-          "answer": ""
+          "answer": "C"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "You can NOT map a string to an integer.",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "True"
             },
             {
               "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
+              "description": "False"
             }
           ],
-          "answer": ""
+          "answer": "B"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "What is an optional type?",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "It returns an option of values."
             },
             {
               "key": "B",
-              "description": ""
+              "description": "You can chose to use this line of code."
             },
             {
               "key": "C",
-              "description": ""
+              "description": "It lets the user input options."
             },
             {
               "key": "D",
-              "description": ""
+              "description": "It's either the type it's saying, or nil."
             }
           ],
-          "answer": ""
+          "answer": "D"
+        },
+        {
+          "type": "radio",
+          "question": "What symbol represents an optional type?",
+          "options": [
+            {
+              "key": "A",
+              "description": "!"
+            },
+            {
+              "key": "B",
+              "description": "?"
+            },
+            {
+              "key": "C",
+              "description": "&"
+            },
+            {
+              "key": "D",
+              "description": "@"
+            }
+          ],
+          "answer": "B"
+        },
+        {
+          "type": "radio",
+          "question": "What happens when you use a force-unwrap operator?",
+          "options": [
+            {
+              "key": "A",
+              "description": "It forces the return value to be an integer or a string."
+            },
+            {
+              "key": "B",
+              "description": "It's used at Christmas time while passing in : presents"
+            },
+            {
+              "key": "C",
+              "description": "It \"unwraps\" the code after it has been compiled so it is faster."
+            },
+            {
+              "key": "D",
+              "description": "This operator \"unwraps\" an optional type, resulting in a panic or remove the optional."
+            }
+          ],
+          "answer": "D"
+        },
+        {
+          "type": "radio",
+          "question": "What symbol represents force-wrap?",
+          "options": [
+            {
+              "key": "A",
+              "description": "&"
+            },
+            {
+              "key": "B",
+              "description": "?"
+            },
+            {
+              "key": "C",
+              "description": "!"
+            },
+            {
+              "key": "D",
+              "description": "@"
+            }
+          ],
+          "answer": "C"
+        },
+        {
+          "type": "radio",
+          "question": "When accessing values of a dictionary, you will always get optionals back.",
+          "options": [
+            {
+              "key": "A",
+              "description": "True"
+            },
+            {
+              "key": "B",
+              "description": "False"
+            }
+          ],
+          "answer": "A"
+        },
+        {
+          "type": "radio",
+          "question": "What two pieces of syntax are missing? (select both)",
+          "image": "https://lh4.googleusercontent.com/SenhSE2S0bQUOfI22AjJpnfXUaA65tNzDe7-s4FWPfgxjr33flbZRBxMAifUaswudXrfCcB0QXEK4B1K84yi__9n3oamWSn1yw-K9zINBwy17AekVWvAso6jUa-bsoIdtQ=w740",
+          "options": [
+            {
+              "key": "A",
+              "description": "@"
+            },
+            {
+              "key": "B",
+              "description": ": String"
+            },
+            {
+              "key": "C",
+              "description": "{Int: String}"
+            },
+            {
+              "key": "D",
+              "description": "!"
+            }
+          ],
+          "answer": "C,D"
         }
       ]
     }
