@@ -8,210 +8,155 @@
       "quiz": [
         {
           "type": "radio",
-          "question": "",
+          "question": "What is a struct?",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "Another name for dictionaries."
             },
             {
               "key": "B",
-              "description": ""
+              "description": "Containers of information."
             },
             {
               "key": "C",
-              "description": ""
+              "description": "A small building for ants."
             },
             {
               "key": "D",
-              "description": ""
+              "description": "A type of an array function."
             }
           ],
-          "answer": ""
+          "answer": "B"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "You need an init function when using a struct.",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "True"
             },
             {
               "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
+              "description": "False"
             }
           ],
-          "answer": ""
+          "answer": "A"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "What access modifier can you use for structs?",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "access(account)"
             },
             {
               "key": "B",
-              "description": ""
+              "description": "pub"
             },
             {
               "key": "C",
-              "description": ""
+              "description": "priv"
             },
             {
               "key": "D",
-              "description": ""
+              "description": "access(contract)"
             }
           ],
-          "answer": ""
+          "answer": "B"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "You can NOT put a function inside a struct.",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "True"
             },
             {
               "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
+              "description": "False"
             }
           ],
-          "answer": ""
+          "answer": "B"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "How many types does our struct have?",
+          "image": "https://lh6.googleusercontent.com/xYF0J1QElHyN-uMo0YPO7SsedE77iECOXBmyIhRBxoKBQ_SNB5RmqJUidbdvtdv03A6FCRN-NVMibMBOE_Gwjg92sgheh7M-Im3DofA5VGcm0HFTpAdsW_S4_b1UnmzeHg=w740",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "1"
             },
             {
               "key": "B",
-              "description": ""
+              "description": "2"
             },
             {
               "key": "C",
-              "description": ""
+              "description": "3"
             },
             {
               "key": "D",
-              "description": ""
+              "description": "4"
+            },
+            {
+              "key": "E",
+              "description": "5"
             }
           ],
-          "answer": ""
+          "answer": "D"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "What is missing from line 11?",
+          "image": "https://lh3.googleusercontent.com/N4V5lAmH2AdCXvrjVv-g64J5X2dKrQeadrEaKzyV_ELuXAQ2kSTMEmUGjBA7k9cEBzXlgQ0jk6mEPyosx5GkJs_hE5JGER6PeCjiKP4Y8HSUFW0WciAQBcOlbAO4dwKZCw=w740",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "_owner: owner, _year: year, _model: model, _make: make"
             },
             {
               "key": "B",
-              "description": ""
+              "description": "owner: _owner, year: _year, model: _model, make: _make"
             },
             {
               "key": "C",
-              "description": ""
+              "description": "owner: String, year: Int, model: String, make: String"
             },
             {
               "key": "D",
-              "description": ""
+              "description": "_owner: String, _year: Int, _model: String, _make: String"
             }
           ],
-          "answer": ""
+          "answer": "D"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "What is missing from line 8 in our transaction?",
+          "image": "https://lh3.googleusercontent.com/xXJICoxQmy-lv0mKlqncuGC_uoE4q3dG5kDk_4-0xPyNAgTb8RF3iQGI55iniOR732qHHEcMK6SC0LelBQl1YWvgoRJ49xhloicJQ-xS-cqDwz1U4XAZDMF0HQ-jcX7lPQ=w740",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "CarHistory.adduser"
             },
             {
               "key": "B",
-              "description": ""
+              "description": "Cars.newuser"
             },
             {
               "key": "C",
-              "description": ""
+              "description": "CarHistory.newuser"
             },
             {
               "key": "D",
-              "description": ""
+              "description": "Cars.adduser"
             }
           ],
-          "answer": ""
-        },
-        {
-          "type": "radio",
-          "question": "",
-          "options": [
-            {
-              "key": "A",
-              "description": ""
-            },
-            {
-              "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
-            }
-          ],
-          "answer": ""
-        },
-        {
-          "type": "radio",
-          "question": "",
-          "options": [
-            {
-              "key": "A",
-              "description": ""
-            },
-            {
-              "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
-            }
-          ],
-          "answer": ""
+          "answer": "A"
         }
       ]
     }
