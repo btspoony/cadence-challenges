@@ -1,0 +1,103 @@
+{
+  "guide": "https://raw.githubusercontent.com/btspoony/cadence-challenges/main/quests/create-account/README.md",
+  "steps": [
+    {
+      "title": "Go to faucet webiste",
+      "description": "",
+      "type": "quiz",
+      "quiz": [
+        {
+          "type": "radio",
+          "question": "What is the URL of Flow faucet?",
+          "options": [
+            {
+              "key": "A",
+              "description": "https://testnet-faucet.onflow.org/"
+            },
+            {
+              "key": "B",
+              "description": "https://port.onflow.org/"
+            },
+            {
+              "key": "C",
+              "description": "https://developers.flow.com/"
+            },
+            {
+              "key": "D",
+              "description": "https://testnet.flowscan.org/"
+            }
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "title": "Know about Signature & Hash",
+      "description": "",
+      "type": "quiz",
+      "quiz": [
+        {
+          "type": "radio",
+          "question": "Which Signature Algorithm is not supported for Flow Account?",
+          "options": [
+            {
+              "key": "A",
+              "description": "Signature Algorithm: ECDSA_P256"
+            },
+            {
+              "key": "B",
+              "description": "Signature Algorithm: ECDSA_secp256k1"
+            },
+            {
+              "key": "C",
+              "description": "Signature Algorithms: BLS_BLS12_381"
+            }
+          ],
+          "answer": "C"
+        },
+        {
+          "type": "radio",
+          "question": "Which Hash Algorithm is not supported for Flow Account?",
+          "options": [
+            {
+              "key": "A",
+              "description": "Hash Algorithms: SHA-2"
+            },
+            {
+              "key": "B",
+              "description": "Hash Algorithms: Keccak256"
+            },
+            {
+              "key": "C",
+              "description": "Hash Algorithms: SHA-3"
+            }
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "title": "Create account by Flow CLI",
+      "description": "Create a new flow account and verify on-chain.",
+      "type": "onchain",
+      "code": "https://raw.githubusercontent.com/btspoony/cadence-challenges/main/quests/create-account/verify-step1.cdc",
+      "schema": [
+        {
+          "key": "acct",
+          "label": "Account",
+          "type": "Address"
+        },
+        {
+          "key": "pubKey",
+          "label": "Public Key",
+          "type": "String"
+        }
+      ],
+      "test": {
+        "network": "testnet",
+        "expect": "return",
+        "result": true
+      }
+    }
+  ]
+}

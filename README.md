@@ -36,6 +36,7 @@ The schema of `quest.json`
     {
       "title": "The title of current quest step",
       "description": "The description of current quest step",
+      "external": "(Optional) URL of the external information", // external url for this step
       "type": "onchain",
       "code": "URL of the verification scripts' code",
       "schema": [
@@ -55,6 +56,7 @@ The schema of `quest.json`
     {
       "title": "The title of current quest step",
       "description": "The description of current quest step",
+      "external": "(Optional) URL of the external information", // external url for this step
       "type": "quiz",
       "quiz": [
         {

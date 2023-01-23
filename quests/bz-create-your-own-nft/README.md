@@ -54,58 +54,58 @@ Replace the code in your flow.json with the following:
 
 ```json
 {
-	"contracts": {
-		"ExampleNFT": "./cadence/contracts/ExampleNFT.cdc",
+ "contracts": {
+  "ExampleNFT": "./cadence/contracts/ExampleNFT.cdc",
 
-		"MetadataViews": {
-			"source": "./cadence/contracts/MetadataViews.cdc",
-			"aliases": {
-				"mainnet": "0x1d7e57aa55817448",
-				"testnet": "0x631e88ae7f1d7c20"
-			}
-		},
-		"NonFungibleToken": {
-			"source": "./cadence/contracts/NonFungibleToken.cdc",
-			"aliases": {
-				"testnet": "0x631e88ae7f1d7c20",
-				"mainnet": "0x1d7e57aa55817448"
-			}
-		}
-	},
-	"networks": {
-		"emulator": "127.0.0.1:3569",
-		"mainnet": "access.mainnet.nodes.onflow.org:9000",
-		"sandboxnet": "access.sandboxnet.nodes.onflow.org:9000",
-		"testnet": "access.devnet.nodes.onflow.org:9000"
-	},
-	"accounts": {
-		"emulator-account": {
-			"address": "f8d6e0586b0a20c7",
-			"key": "ce795966a578dedda983692db8c0cd03501305b0855e6ded0591cacac53ffc26"
-		},
-		"testnet-account": {
-			"address": "ADD YOUR FLOW ADDRESS",
-			"key": {
-				"type": "hex",
-				"index": 0,
-				"signatureAlgorithm": "ECDSA_P256",
-				"hashAlgorithm": "SHA3_256",
-				"privateKey": "ADD YOUR PRIVATE KEY"
-			}
-		}
-	},
-	"deployments": {
-		"emulator": {
-			"emulator-account": [
-				"MetadataViews",
-				"NonFungibleToken",
-				"ExampleNFT"
-			]
-		},
-		"testnet": {
-			"testnet-account": ["ExampleNFT"]
-		}
-	}
+  "MetadataViews": {
+   "source": "./cadence/contracts/MetadataViews.cdc",
+   "aliases": {
+    "mainnet": "0x1d7e57aa55817448",
+    "testnet": "0x631e88ae7f1d7c20"
+   }
+  },
+  "NonFungibleToken": {
+   "source": "./cadence/contracts/NonFungibleToken.cdc",
+   "aliases": {
+    "testnet": "0x631e88ae7f1d7c20",
+    "mainnet": "0x1d7e57aa55817448"
+   }
+  }
+ },
+ "networks": {
+  "emulator": "127.0.0.1:3569",
+  "mainnet": "access.mainnet.nodes.onflow.org:9000",
+  "sandboxnet": "access.sandboxnet.nodes.onflow.org:9000",
+  "testnet": "access.devnet.nodes.onflow.org:9000"
+ },
+ "accounts": {
+  "emulator-account": {
+   "address": "f8d6e0586b0a20c7",
+   "key": "ce795966a578dedda983692db8c0cd03501305b0855e6ded0591cacac53ffc26"
+  },
+  "testnet-account": {
+   "address": "ADD YOUR FLOW ADDRESS",
+   "key": {
+    "type": "hex",
+    "index": 0,
+    "signatureAlgorithm": "ECDSA_P256",
+    "hashAlgorithm": "SHA3_256",
+    "privateKey": "ADD YOUR PRIVATE KEY"
+   }
+  }
+ },
+ "deployments": {
+  "emulator": {
+   "emulator-account": [
+    "MetadataViews",
+    "NonFungibleToken",
+    "ExampleNFT"
+   ]
+  },
+  "testnet": {
+   "testnet-account": ["ExampleNFT"]
+  }
+ }
 }
 ```
 
