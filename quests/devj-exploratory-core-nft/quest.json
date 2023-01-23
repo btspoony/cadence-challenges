@@ -1,0 +1,219 @@
+{
+  "guide": "",
+  "steps": [
+    {
+      "title": "Learning validation quiz",
+      "description": "",
+      "type": "quiz",
+      "quiz": [
+        {
+          "type": "radio",
+          "question": "",
+          "options": [
+            {
+              "key": "A",
+              "description": ""
+            },
+            {
+              "key": "B",
+              "description": ""
+            },
+            {
+              "key": "C",
+              "description": ""
+            },
+            {
+              "key": "D",
+              "description": ""
+            }
+          ],
+          "answer": ""
+        },
+        {
+          "type": "radio",
+          "question": "",
+          "options": [
+            {
+              "key": "A",
+              "description": ""
+            },
+            {
+              "key": "B",
+              "description": ""
+            },
+            {
+              "key": "C",
+              "description": ""
+            },
+            {
+              "key": "D",
+              "description": ""
+            }
+          ],
+          "answer": ""
+        },
+        {
+          "type": "radio",
+          "question": "",
+          "options": [
+            {
+              "key": "A",
+              "description": ""
+            },
+            {
+              "key": "B",
+              "description": ""
+            },
+            {
+              "key": "C",
+              "description": ""
+            },
+            {
+              "key": "D",
+              "description": ""
+            }
+          ],
+          "answer": ""
+        },
+        {
+          "type": "radio",
+          "question": "",
+          "options": [
+            {
+              "key": "A",
+              "description": ""
+            },
+            {
+              "key": "B",
+              "description": ""
+            },
+            {
+              "key": "C",
+              "description": ""
+            },
+            {
+              "key": "D",
+              "description": ""
+            }
+          ],
+          "answer": ""
+        },
+        {
+          "type": "radio",
+          "question": "",
+          "options": [
+            {
+              "key": "A",
+              "description": ""
+            },
+            {
+              "key": "B",
+              "description": ""
+            },
+            {
+              "key": "C",
+              "description": ""
+            },
+            {
+              "key": "D",
+              "description": ""
+            }
+          ],
+          "answer": ""
+        },
+        {
+          "type": "radio",
+          "question": "",
+          "options": [
+            {
+              "key": "A",
+              "description": ""
+            },
+            {
+              "key": "B",
+              "description": ""
+            },
+            {
+              "key": "C",
+              "description": ""
+            },
+            {
+              "key": "D",
+              "description": ""
+            }
+          ],
+          "answer": ""
+        },
+        {
+          "type": "radio",
+          "question": "",
+          "options": [
+            {
+              "key": "A",
+              "description": ""
+            },
+            {
+              "key": "B",
+              "description": ""
+            },
+            {
+              "key": "C",
+              "description": ""
+            },
+            {
+              "key": "D",
+              "description": ""
+            }
+          ],
+          "answer": ""
+        },
+        {
+          "type": "radio",
+          "question": "",
+          "options": [
+            {
+              "key": "A",
+              "description": ""
+            },
+            {
+              "key": "B",
+              "description": ""
+            },
+            {
+              "key": "C",
+              "description": ""
+            },
+            {
+              "key": "D",
+              "description": ""
+            }
+          ],
+          "answer": ""
+        },
+        {
+          "type": "radio",
+          "question": "",
+          "options": [
+            {
+              "key": "A",
+              "description": ""
+            },
+            {
+              "key": "B",
+              "description": ""
+            },
+            {
+              "key": "C",
+              "description": ""
+            },
+            {
+              "key": "D",
+              "description": ""
+            }
+          ],
+          "answer": ""
+        }
+      ]
+    }
+  ]
+}
