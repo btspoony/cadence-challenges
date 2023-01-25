@@ -7,211 +7,170 @@
       "type": "quiz",
       "quiz": [
         {
-          "type": "radio",
-          "question": "",
+          "type": "checkbox",
+          "question": "Resources... (select all that apply)",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "cannot be in more than one location at a time."
             },
             {
               "key": "B",
-              "description": ""
+              "description": "cannot be lost."
             },
             {
               "key": "C",
-              "description": ""
+              "description": "cannot be destroyed."
             },
             {
               "key": "D",
-              "description": ""
+              "description": "cannot be copied."
+            },
+            {
+              "key": "E",
+              "description": "cannot be created."
             }
           ],
-          "answer": ""
+          "answer": "A,B,D"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "What keyword is used to create a resource?",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "make"
             },
             {
               "key": "B",
-              "description": ""
+              "description": "create"
             },
             {
               "key": "C",
-              "description": ""
+              "description": "resource"
             },
             {
               "key": "D",
-              "description": ""
+              "description": "build"
             }
           ],
-          "answer": ""
+          "answer": "B"
+        },
+        {
+          "type": "checkbox",
+          "question": "At the end of a function that includes a resource, the resource must be... (select all that apply)",
+          "options": [
+            {
+              "key": "A",
+              "description": "destroyed."
+            },
+            {
+              "key": "B",
+              "description": "initialised."
+            },
+            {
+              "key": "C",
+              "description": "duplicated."
+            },
+            {
+              "key": "D",
+              "description": "moved."
+            }
+          ],
+          "answer": "A,D"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "What prefix is used to explicitly see a resource type?",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "&"
             },
             {
               "key": "B",
-              "description": ""
+              "description": "!"
             },
             {
               "key": "C",
-              "description": ""
+              "description": "@"
             },
             {
               "key": "D",
-              "description": ""
+              "description": "?"
             }
           ],
-          "answer": ""
+          "answer": "C"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "When moving a resource what move operator is used?",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "<-"
             },
             {
               "key": "B",
-              "description": ""
+              "description": "move"
             },
             {
               "key": "C",
-              "description": ""
+              "description": "="
             },
             {
               "key": "D",
-              "description": ""
+              "description": "getOutTheWay"
             }
           ],
-          "answer": ""
+          "answer": "A"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "What does this error message suggest?",
+          "image": "https://lh5.googleusercontent.com/do4AYP0MMpAMo_6wsAQ5Co_i1UMEWmAbeZeHZ060SyT9BNtcrs2MUNk19ITiFn6_7PdYjBrtgH27jsgIzZV2EophmtDxDHmInnkLw_4Gk5lWprFdMHQ7goczEdFMeORbrw=w678",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "Your resource has not been initialised."
             },
             {
               "key": "B",
-              "description": ""
+              "description": "Your resource has not been moved or destroyed."
             },
             {
               "key": "C",
-              "description": ""
+              "description": "Your resource has a spelling error."
             },
             {
               "key": "D",
-              "description": ""
+              "description": "Your resource is lost and insecure."
             }
           ],
-          "answer": ""
+          "answer": "B"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "When destroying a resource which syntax is correct?",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "destroy @exampleResource"
             },
             {
               "key": "B",
-              "description": ""
+              "description": "destroy <- exampleResource"
             },
             {
               "key": "C",
-              "description": ""
+              "description": "destroy exampleResource"
             },
             {
               "key": "D",
-              "description": ""
+              "description": "destroy: Resource"
             }
           ],
-          "answer": ""
-        },
-        {
-          "type": "radio",
-          "question": "",
-          "options": [
-            {
-              "key": "A",
-              "description": ""
-            },
-            {
-              "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
-            }
-          ],
-          "answer": ""
-        },
-        {
-          "type": "radio",
-          "question": "",
-          "options": [
-            {
-              "key": "A",
-              "description": ""
-            },
-            {
-              "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
-            }
-          ],
-          "answer": ""
-        },
-        {
-          "type": "radio",
-          "question": "",
-          "options": [
-            {
-              "key": "A",
-              "description": ""
-            },
-            {
-              "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
-            }
-          ],
-          "answer": ""
+          "answer": "C"
         }
       ]
     }

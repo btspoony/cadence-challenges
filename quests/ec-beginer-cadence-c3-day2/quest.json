@@ -7,211 +7,163 @@
       "type": "quiz",
       "quiz": [
         {
-          "type": "radio",
-          "question": "",
+          "type": "checkbox",
+          "question": "Where can resources be stored? (select all that apply)",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "Inside account storage"
             },
             {
               "key": "B",
-              "description": ""
+              "description": "Struct"
             },
             {
               "key": "C",
-              "description": ""
+              "description": "Contract state variable"
             },
             {
               "key": "D",
-              "description": ""
+              "description": "Dictionary"
+            },
+            {
+              "key": "E",
+              "description": "Array"
             }
           ],
-          "answer": ""
+          "answer": "A,D,E"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "When mapping a dictionary to a resource where is the @ placed?",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "@ is not required when mapping a dictionary to a resource."
             },
             {
               "key": "B",
-              "description": ""
+              "description": "@Resource: {UInt64: exampleResource}"
             },
             {
               "key": "C",
-              "description": ""
+              "description": "Resource: @{String: exampleResource}"
             },
             {
               "key": "D",
-              "description": ""
+              "description": "Resource: {UInt64: @exampleResource}"
             }
           ],
-          "answer": ""
+          "answer": "B"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "What is used to differentiate between two tokens minted on Flow?",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "UUID"
             },
             {
               "key": "B",
-              "description": ""
+              "description": "Smart Contract"
             },
             {
               "key": "C",
-              "description": ""
+              "description": "Wallet Address"
             },
             {
               "key": "D",
-              "description": ""
+              "description": "Token ID"
             }
           ],
-          "answer": ""
+          "answer": "A"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "What does the ! do in line 7?",
+          "image": "https://lh3.googleusercontent.com/Dr4ieRQlYpnpAz3V5a0SKz3TxwgIMDI43Esiw-beS6EIngSzuByry2hlkSk8MYnrjXloFrVAHJDHC3S_XZy4ykUNJcKqQI0bh3XvLWKfgGlbUlAeUB3p0GSWOezL_j-4qQ=w740",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "Panics if something already exists at that mapping."
             },
             {
               "key": "B",
-              "description": ""
+              "description": "Forces the resource to be mapped no matter what."
             },
             {
               "key": "C",
-              "description": ""
+              "description": "Panics if nothing has been mapped already."
             },
             {
               "key": "D",
-              "description": ""
+              "description": "Force unwraps the resource."
             }
           ],
-          "answer": ""
+          "answer": "B"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "To avoid overwriting something - what is a way to move a resource into a dictionary?",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "Resources must be overwritten"
             },
             {
               "key": "B",
-              "description": ""
+              "description": "Using reverse -> operator"
             },
             {
               "key": "C",
-              "description": ""
+              "description": "Using .remove"
             },
             {
               "key": "D",
-              "description": ""
+              "description": "Using double <- operator"
             }
           ],
-          "answer": ""
+          "answer": "D"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "With this remove function, what is missing from line 26? (select all that apply)",
+          "image": "https://lh5.googleusercontent.com/4okXmrtLrvBtmwuN4d2y7XcMCwQGd00uFrC2e5Vthq2tjusvAdiT4oVJmtLLjI1q7t7GR-rvaNmQ0jRRcJq1aIB6kNSan3Jm-F7US6ZrjovzTqjKd3a3T-4WtaT2OMd-nw=w740",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "<-"
             },
             {
               "key": "B",
-              "description": ""
+              "description": "@"
             },
             {
               "key": "C",
-              "description": ""
+              "description": "delete"
             },
             {
               "key": "D",
-              "description": ""
+              "description": "remove"
             }
           ],
-          "answer": ""
+          "answer": "A"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "'create' can only be called inside the contract.",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "True"
             },
             {
               "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
+              "description": "False"
             }
           ],
-          "answer": ""
-        },
-        {
-          "type": "radio",
-          "question": "",
-          "options": [
-            {
-              "key": "A",
-              "description": ""
-            },
-            {
-              "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
-            }
-          ],
-          "answer": ""
-        },
-        {
-          "type": "radio",
-          "question": "",
-          "options": [
-            {
-              "key": "A",
-              "description": ""
-            },
-            {
-              "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
-            }
-          ],
-          "answer": ""
+          "answer": "A"
         }
       ]
     }
