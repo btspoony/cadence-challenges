@@ -7,211 +7,150 @@
       "type": "quiz",
       "quiz": [
         {
-          "type": "radio",
-          "question": "",
+          "type": "checkbox",
+          "question": "A resource interface can...",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "have different restrictions based off of access modifiers."
             },
             {
               "key": "B",
-              "description": ""
+              "description": "restrict who has access to the whole resource."
             },
             {
               "key": "C",
-              "description": ""
+              "description": "only implement Ints or Strings."
             },
             {
               "key": "D",
-              "description": ""
+              "description": "confirm that the resource has the correct items in it."
             }
           ],
-          "answer": ""
+          "answer": "A,D"
+        },
+        {
+          "type": "checkbox",
+          "question": "An interface can be a...",
+          "options": [
+            {
+              "key": "A",
+              "description": "Resource interface"
+            },
+            {
+              "key": "B",
+              "description": "Contract interface"
+            },
+            {
+              "key": "C",
+              "description": "Dictionary interface"
+            },
+            {
+              "key": "D",
+              "description": "Structure interface"
+            }
+          ],
+          "answer": "A,B,D"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "You can implement a function in an interface.",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "True"
             },
             {
               "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
+              "description": "False"
             }
           ],
-          "answer": ""
+          "answer": "A"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "What keyword defines an interface?",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "capability"
             },
             {
               "key": "B",
-              "description": ""
+              "description": "iResource"
             },
             {
               "key": "C",
-              "description": ""
+              "description": "int"
             },
             {
               "key": "D",
-              "description": ""
+              "description": "interface"
             }
           ],
-          "answer": ""
+          "answer": "D"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "Interfaces must start with 'I'.",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "True"
             },
             {
               "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
+              "description": "False"
             }
           ],
-          "answer": ""
+          "answer": "B"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "Why are we getting this error message?",
+          "image": "https://lh3.googleusercontent.com/EI-j-nBwusF9JSmifYfPZq5e2kDBHS35ZNKzwKBpD8yXGokPvLFQ2hP88U3ru6kZrOaRlU3JZs3Eqjc-4A5FbXz97FNrTSaScqMuqFe-BKbbZloAUHHioDfX3Vop814kOw=w740",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "IVideoGames is not implemented to VideoGames."
             },
             {
               "key": "B",
-              "description": ""
+              "description": "Spelling error."
             },
             {
               "key": "C",
-              "description": ""
+              "description": "Need to include game1 in line 4."
             },
             {
               "key": "D",
-              "description": ""
+              "description": "Valorant & PubG aren't real games."
             }
           ],
-          "answer": ""
+          "answer": "A"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "What symbol/s surrounds a restricted resource interface?",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "( )"
             },
             {
               "key": "B",
-              "description": ""
+              "description": "i"
             },
             {
               "key": "C",
-              "description": ""
+              "description": "{ }"
             },
             {
               "key": "D",
-              "description": ""
+              "description": "@"
             }
           ],
-          "answer": ""
-        },
-        {
-          "type": "radio",
-          "question": "",
-          "options": [
-            {
-              "key": "A",
-              "description": ""
-            },
-            {
-              "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
-            }
-          ],
-          "answer": ""
-        },
-        {
-          "type": "radio",
-          "question": "",
-          "options": [
-            {
-              "key": "A",
-              "description": ""
-            },
-            {
-              "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
-            }
-          ],
-          "answer": ""
-        },
-        {
-          "type": "radio",
-          "question": "",
-          "options": [
-            {
-              "key": "A",
-              "description": ""
-            },
-            {
-              "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
-            }
-          ],
-          "answer": ""
+          "answer": "C"
         }
       ]
     }
