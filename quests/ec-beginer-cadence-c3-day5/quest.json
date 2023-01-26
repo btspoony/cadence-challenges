@@ -7,211 +7,130 @@
       "type": "quiz",
       "quiz": [
         {
-          "type": "radio",
-          "question": "",
+          "type": "checkbox",
+          "question": "Access control can... (select both)",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "control contracts and objects using access modifiers."
             },
             {
               "key": "B",
-              "description": ""
+              "description": "hide things on the blockchain."
             },
             {
               "key": "C",
-              "description": ""
+              "description": "Can be changed once the contract is deployed."
             },
             {
               "key": "D",
-              "description": ""
+              "description": "restrict people from accessing what is in your account storage."
             }
           ],
-          "answer": ""
+          "answer": "C,D"
+        },
+        {
+          "type": "checkbox",
+          "question": "A scope...",
+          "options": [
+            {
+              "key": "A",
+              "description": "has four different types of access."
+            },
+            {
+              "key": "B",
+              "description": "can only restrict functions"
+            },
+            {
+              "key": "C",
+              "description": "is the area in which you can access, modify or call 'things'."
+            },
+            {
+              "key": "D",
+              "description": "will help you have better aim while playing Valorant."
+            }
+          ],
+          "answer": "A,C"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "Access Modifies always have a Read Scope and a Write Scope",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "True"
             },
             {
               "key": "B",
-              "description": ""
+              "description": "False"
+            }
+          ],
+          "answer": "A"
+        },
+        {
+          "type": "checkbox",
+          "question": "Which two have the same Read and Write access scope?",
+          "options": [
+            {
+              "key": "A",
+              "description": "pub(set)"
+            },
+            {
+              "key": "B",
+              "description": "priv"
             },
             {
               "key": "C",
-              "description": ""
+              "description": "access(self)"
             },
             {
               "key": "D",
-              "description": ""
+              "description": "access(all)"
             }
           ],
-          "answer": ""
+          "answer": "A,B,C"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "What is NOT one of levels of access control in a contract (access or calling)?",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "access(contract)"
             },
             {
               "key": "B",
-              "description": ""
+              "description": "access(self)"
             },
             {
               "key": "C",
-              "description": ""
+              "description": "access(owner)"
             },
             {
               "key": "D",
-              "description": ""
+              "description": "access(all)"
+            },
+            {
+              "key": "E",
+              "description": "access(account)"
             }
           ],
-          "answer": ""
+          "answer": "C"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "Access modifiers can also be used to change the behavior on functions.",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "True"
             },
             {
               "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
+              "description": "False"
             }
           ],
-          "answer": ""
-        },
-        {
-          "type": "radio",
-          "question": "",
-          "options": [
-            {
-              "key": "A",
-              "description": ""
-            },
-            {
-              "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
-            }
-          ],
-          "answer": ""
-        },
-        {
-          "type": "radio",
-          "question": "",
-          "options": [
-            {
-              "key": "A",
-              "description": ""
-            },
-            {
-              "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
-            }
-          ],
-          "answer": ""
-        },
-        {
-          "type": "radio",
-          "question": "",
-          "options": [
-            {
-              "key": "A",
-              "description": ""
-            },
-            {
-              "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
-            }
-          ],
-          "answer": ""
-        },
-        {
-          "type": "radio",
-          "question": "",
-          "options": [
-            {
-              "key": "A",
-              "description": ""
-            },
-            {
-              "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
-            }
-          ],
-          "answer": ""
-        },
-        {
-          "type": "radio",
-          "question": "",
-          "options": [
-            {
-              "key": "A",
-              "description": ""
-            },
-            {
-              "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
-            }
-          ],
-          "answer": ""
+          "answer": "B"
         }
       ]
     }
