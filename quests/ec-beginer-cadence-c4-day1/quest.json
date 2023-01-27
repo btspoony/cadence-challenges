@@ -7,211 +7,305 @@
       "type": "quiz",
       "quiz": [
         {
-          "type": "radio",
-          "question": "",
+          "type": "checkbox",
+          "question": "What lives in your account? (select all that apply)",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "Contract Code (you've deployed)"
             },
             {
               "key": "B",
-              "description": ""
+              "description": "Contract Code (others have deployed)"
             },
             {
               "key": "C",
-              "description": ""
+              "description": "IPFS data (images)"
             },
             {
               "key": "D",
-              "description": ""
+              "description": "Account Storage"
             }
           ],
-          "answer": ""
+          "answer": "A,D"
+        },
+        {
+          "type": "checkbox",
+          "question": "What paths live in account storage? (select all that apply)",
+          "options": [
+            {
+              "key": "A",
+              "description": "/public"
+            },
+            {
+              "key": "B",
+              "description": "/local"
+            },
+            {
+              "key": "C",
+              "description": "/storage"
+            },
+            {
+              "key": "D",
+              "description": "/private"
+            }
+          ],
+          "answer": "A,C,D"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "Where are items actually stored?",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "/storage"
             },
             {
               "key": "B",
-              "description": ""
+              "description": "/private"
             },
             {
               "key": "C",
-              "description": ""
+              "description": "/local"
             },
             {
               "key": "D",
-              "description": ""
+              "description": "/public"
             }
           ],
-          "answer": ""
+          "answer": "A"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "What is used to access /storage in a transaction?",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "AuthAccount"
             },
             {
               "key": "B",
-              "description": ""
+              "description": "Access(all)"
             },
             {
               "key": "C",
-              "description": ""
+              "description": "AuthAccess"
             },
             {
               "key": "D",
-              "description": ""
+              "description": "pub(set)"
             }
           ],
-          "answer": ""
+          "answer": "A"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "At what stage in a transaction can you get access to someones storage?",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "Prepare"
             },
             {
               "key": "B",
-              "description": ""
+              "description": "Execute"
+            }
+          ],
+          "answer": "A"
+        },
+        {
+          "type": "checkbox",
+          "question": "Who can access /public? (select all that apply)",
+          "options": [
+            {
+              "key": "A",
+              "description": "Anyone"
+            },
+            {
+              "key": "B",
+              "description": "Owner"
             },
             {
               "key": "C",
-              "description": ""
+              "description": "Whoever has permission/access from the owner"
             },
             {
               "key": "D",
-              "description": ""
+              "description": "Jacob"
             }
           ],
-          "answer": ""
+          "answer": "A,B,C,D"
+        },
+        {
+          "type": "checkbox",
+          "question": "who can access /private? (select all that apply)",
+          "options": [
+            {
+              "key": "A",
+              "description": "Anyone"
+            },
+            {
+              "key": "B",
+              "description": "Owner"
+            },
+            {
+              "key": "C",
+              "description": "Whoever has permission/access from the owner"
+            },
+            {
+              "key": "D",
+              "description": "Jacob"
+            }
+          ],
+          "answer": "B,C"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "You DON'T have to use move operators  '<-' when moving resources into storage.",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "True"
             },
             {
               "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
+              "description": "False"
             }
           ],
-          "answer": ""
+          "answer": "B"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "Only one thing can exist at one storage path at any time.",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "True"
             },
             {
               "key": "B",
-              "description": ""
+              "description": "False"
+            }
+          ],
+          "answer": "A"
+        },
+        {
+          "type": "checkbox",
+          "question": "Things have got a bit blurry, what is missing? (select 3 items)",
+          "image": "https://lh6.googleusercontent.com/whgLt9b5hlU5zYHw9Jy2Q9GLeK9XeS0bd6kjKEGMsvKhkebTzRTsUH74jsiOnPP0neQsUDsEi45UIgA-1EzVKpZTuu8iQif3mMQ6oU4I21Xy7yOgFOEsPeN7rVqK0x2qZA=w740",
+          "options": [
+            {
+              "key": "A",
+              "description": "<-"
+            },
+            {
+              "key": "B",
+              "description": "to:"
             },
             {
               "key": "C",
-              "description": ""
+              "description": "Auth(access)"
             },
             {
               "key": "D",
-              "description": ""
+              "description": "AuthAccount"
+            },
+            {
+              "key": "E",
+              "description": "@"
             }
           ],
-          "answer": ""
+          "answer": "A,B,D"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "What is the purpose of using ?? instead of !",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "Shows that you are confused, and why."
             },
             {
               "key": "B",
-              "description": ""
+              "description": "It is a way to provide more information when nil is unexpectedly found."
             },
             {
               "key": "C",
-              "description": ""
+              "description": "They do the same thing and can be used interchangeably."
             },
             {
               "key": "D",
-              "description": ""
+              "description": "I don't know?"
             }
           ],
-          "answer": ""
+          "answer": "B"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "For the contract below, what is missing?",
+          "image": "https://lh4.googleusercontent.com/fnbO15dXiyFJi0hoIaXMViwZ4lP2fhA67OJXMRSuyo9AVrtIPpf-rxUsZ-3B-f9e5I4Ov1_xP0fxIusKVKeyR9S3lzKMEge20YhPW0lOTXjZkt_hTVy9TYMXsFbDxaRs3Q=w740",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "/Cake/Bake"
             },
             {
               "key": "B",
-              "description": ""
+              "description": "<@Cake.Bake>"
             },
             {
               "key": "C",
-              "description": ""
+              "description": "<&Cake.Bake>"
             },
             {
               "key": "D",
-              "description": ""
+              "description": "Cake.Bake"
             }
           ],
-          "answer": ""
+          "answer": "B"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "Why is the .borrow( ) function important when it comes to resources?",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "It allows you to look at something in your account without having to save and load that information."
             },
             {
               "key": "B",
-              "description": ""
+              "description": "It allows you to borrow everything in the account to save time."
             },
             {
               "key": "C",
-              "description": ""
+              "description": "It allows you to borrow another person's AuthAccount without them signing permission."
+            }
+          ],
+          "answer": "A"
+        },
+        {
+          "type": "radio",
+          "question": "We want to look at something in an account with a resource named \"Greeting\". Choose the correct answer. ",
+          "image": "https://lh3.googleusercontent.com/JMO2kT4r1aMW5bmUPeHMe6jR5axBMjLukhmPW7RajduwpShjaWccH06rUZ1WTNoBog8lmL5oy4QO3ytlJp-X7Cm2Qxxwo0svxrMZONwUQzp4YPnIDDliktB1ohUmmOM1zQ=w740",
+          "options": [
+            {
+              "key": "A",
+              "description": "let Greeting <- signer.load<@HelloWorld.Greeting>"
+            },
+            {
+              "key": "B",
+              "description": "let greetingResource = signer.borrow<&HelloWorld.Greeting>"
+            },
+            {
+              "key": "C",
+              "description": "let resource = signer.borrow<HelloWorld.Greeting>"
             },
             {
               "key": "D",
-              "description": ""
+              "description": "let greeting resource <- signer.borrow<HelloWorld.Greeting>"
             }
           ],
-          "answer": ""
+          "answer": "B"
         }
       ]
     }

@@ -7,211 +7,179 @@
       "type": "quiz",
       "quiz": [
         {
-          "type": "radio",
-          "question": "",
+          "type": "checkbox",
+          "question": "What is used to keep track of your NFT total supply?",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "increase total supply variable as NFTs are minted"
             },
             {
               "key": "B",
-              "description": ""
+              "description": "store the total supply in an array"
             },
             {
               "key": "C",
-              "description": ""
+              "description": "total supply variable"
             },
             {
               "key": "D",
-              "description": ""
+              "description": "assign each NFT an ID"
             }
           ],
-          "answer": ""
+          "answer": "A,C"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "You can only create a resource inside a contract.",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "True"
             },
             {
               "key": "B",
-              "description": ""
+              "description": "False"
+            }
+          ],
+          "answer": "A"
+        },
+        {
+          "type": "checkbox",
+          "question": "A collection is... (select all that apply)",
+          "options": [
+            {
+              "key": "A",
+              "description": "where NFTs are stored."
+            },
+            {
+              "key": "B",
+              "description": "an array type."
             },
             {
               "key": "C",
-              "description": ""
+              "description": "a resource."
             },
             {
               "key": "D",
-              "description": ""
+              "description": "stored at one path."
             }
           ],
-          "answer": ""
+          "answer": "A,C,D"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "We can only store 1 resource per storage path.",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "True"
             },
             {
               "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
+              "description": "False"
             }
           ],
-          "answer": ""
+          "answer": "A"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "We've got the error message \"missing destructor\" after creating a nested resource. What function do we need to add?",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "withdraw"
             },
             {
               "key": "B",
-              "description": ""
+              "description": "create"
             },
             {
               "key": "C",
-              "description": ""
+              "description": "destroy"
             },
             {
               "key": "D",
-              "description": ""
+              "description": "deposit"
             }
           ],
-          "answer": ""
+          "answer": "C"
+        },
+        {
+          "type": "checkbox",
+          "question": "What are some of the functions a collection resource should have? (select all that apply)",
+          "options": [
+            {
+              "key": "A",
+              "description": "destroy"
+            },
+            {
+              "key": "B",
+              "description": "deposit"
+            },
+            {
+              "key": "C",
+              "description": "withdraw"
+            },
+            {
+              "key": "D",
+              "description": "create"
+            }
+          ],
+          "answer": "A,B,C"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "We created a collection and want to map an ID with a resource called \"NFT\" with that ID in a variable called \"ownedNFTs\". Which line of code shows that?",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "pub var ownedNFTs: @{UInt64: NFT}"
             },
             {
               "key": "B",
-              "description": ""
+              "description": "pub fun ownedNFTs: @{UInt64: NFT}"
             },
             {
               "key": "C",
-              "description": ""
+              "description": "pub fun ownedNFTs: @{NFT: UInt64}"
             },
             {
               "key": "D",
-              "description": ""
+              "description": "pub var ownedNFTs: @{NFT: UInt64}"
             }
           ],
-          "answer": ""
+          "answer": "A"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "What needs to happen first when you want to send someone a NFT?",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "Create a Collection"
             },
             {
               "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
+              "description": "Create a NFT"
             }
           ],
-          "answer": ""
+          "answer": "A"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "There can be two resources with the same UUID.",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "True"
             },
             {
               "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
+              "description": "False"
             }
           ],
-          "answer": ""
-        },
-        {
-          "type": "radio",
-          "question": "",
-          "options": [
-            {
-              "key": "A",
-              "description": ""
-            },
-            {
-              "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
-            }
-          ],
-          "answer": ""
-        },
-        {
-          "type": "radio",
-          "question": "",
-          "options": [
-            {
-              "key": "A",
-              "description": ""
-            },
-            {
-              "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
-            }
-          ],
-          "answer": ""
+          "answer": "B"
         }
       ]
     }

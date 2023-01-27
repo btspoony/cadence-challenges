@@ -8,210 +8,189 @@
       "quiz": [
         {
           "type": "radio",
-          "question": "",
+          "question": "What is a capability?",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "Controls how many items can be stored in account storage."
             },
             {
               "key": "B",
-              "description": ""
+              "description": "Restricts who can use certain functions in your contract."
             },
             {
               "key": "C",
-              "description": ""
+              "description": "A link from a stored object to a target path."
             },
             {
               "key": "D",
-              "description": ""
+              "description": "An access modifier."
             }
           ],
-          "answer": ""
+          "answer": "C"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "In a script, we want to read the contents of a reference to the contents of a resource called \"Greeting\". What would we put here?",
+          "image": "https://lh5.googleusercontent.com/rabXWtR79Cik8Mw17idNu7QUvP29J-mHQZa3gWbmAgzVzK-uWZB8js6nhnUA-4WbER3nmYkBzP9G4vngXVSc5OH-tZaiRjGot6n-6ZXMFCrIUqQ1O_RiTN48Mv2-PV5p8w=w740",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "<&HelloWorld.Greeting>"
             },
             {
               "key": "B",
-              "description": ""
+              "description": "<&{HelloWorld.IGreeting}>"
             },
             {
               "key": "C",
-              "description": ""
+              "description": "<HelloWorld.Greeting>"
             },
             {
               "key": "D",
-              "description": ""
+              "description": "<HelloWorld.IGreeting>"
             }
           ],
-          "answer": ""
+          "answer": "B"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "Does anything ever get stored in /private or /public?",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "Yes"
             },
             {
               "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
+              "description": "No"
             }
           ],
-          "answer": ""
+          "answer": "B"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "What do we use to make something in /storage readable to the /public.",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": ".see"
             },
             {
               "key": "B",
-              "description": ""
+              "description": ".link"
             },
             {
               "key": "C",
-              "description": ""
+              "description": ".chain"
             },
             {
               "key": "D",
-              "description": ""
+              "description": ".borrow"
             }
           ],
-          "answer": ""
+          "answer": "B"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "{Dogs.IBreeds} in line 7 will limit what can be linked in /public/MyDogsPublic?",
+          "image": "https://lh5.googleusercontent.com/V7bvcsB9rvv2Z8L6f6M40q0LdnFHjeC0tJLUz4Ay5-xVvSuLZ2q8eSBlPa8I01lSwhc_0LlM7Gad5PkHI5E4N8j2izFzl7MrXDL9fd-xw_w7ngWUJhBqpX22sPevAaCuqA=w740",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "True"
             },
             {
               "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
+              "description": "False"
             }
           ],
-          "answer": ""
+          "answer": "A"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "Using the image from the last question, what needs to be changed in line 7 to link the item to a private location?",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "/public to /private."
             },
             {
               "key": "B",
-              "description": ""
+              "description": "nothing"
             },
             {
               "key": "C",
-              "description": ""
+              "description": "target: /private/storage/MyDogs"
             },
             {
               "key": "D",
-              "description": ""
+              "description": "acct.link.private"
             }
           ],
-          "answer": ""
+          "answer": "A"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "You can give capabilities to other people.",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "True"
             },
             {
               "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
+              "description": "False"
             }
           ],
-          "answer": ""
+          "answer": "A"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "You can only access /private with Auth Account; what do you need to access /public?",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "AuthAccount"
             },
             {
               "key": "B",
-              "description": ""
+              "description": "PublicAccount"
             },
             {
               "key": "C",
-              "description": ""
+              "description": "AccessAccount"
             },
             {
               "key": "D",
-              "description": ""
+              "description": "PrivateAccount"
             }
           ],
-          "answer": ""
+          "answer": "B"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "We've created a resource and decided to make this resource public! What is wrong with this code and how can we fix it?",
+          "image": "https://lh5.googleusercontent.com/ZrLM_56WzxQewYTekVIjuYu_h0LQOUVBf0mzHujSEn-L6w6IMEzI_qQxrzzaAOgaJO6Pg7gxuPLtmkHlIzRD4UvqvfBt2Se70o0Dto683c7zqlIMQWIZnnNaf5otoPm4wA=w740",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "If this is public, then anyone is able to access the changeAddress() function. Change this by creating a resource interface that exposes the home address, then .link() to the /public/ path, restricting the reference to use the interface."
             },
             {
               "key": "B",
-              "description": ""
+              "description": "Nothing is wrong here, trick question."
             },
             {
               "key": "C",
-              "description": ""
+              "description": "You need to declare variables before the resource. Declare a homeAddress variable and set it as a String type. When linking to the /public/ path, restrict the resource to the NFT interface."
             },
             {
               "key": "D",
-              "description": ""
+              "description": "If this is public, then you need to to change the createNFT function to a withdrawNFT function. After deploying the contract, link the NFT resource to the private path."
             }
           ],
-          "answer": ""
+          "answer": "A"
         }
       ]
     }

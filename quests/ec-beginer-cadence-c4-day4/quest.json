@@ -8,210 +8,137 @@
       "quiz": [
         {
           "type": "radio",
-          "question": "",
+          "question": "In order to use a transaction to send an NFT to another user, we first get a reference to the signer's Collection. Is a capability being used here? If not, why?",
+          "image": "https://lh6.googleusercontent.com/22bJ5ay0gZRmrCjMjcs-AR5LqbxEm7GGu4i6D5zppXk7Jl0u91Dh8TMy6_KHcTpg2IVnbyixGlxiL0ua5NckcI8isVEdspy7dATftnyM3v80OkCzO0P9nuy74ymF6RFPog=w740",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "No, because capabilities don't allow us to read information from storage."
             },
             {
               "key": "B",
-              "description": ""
+              "description": "No, because nothing is actually stored in a capability path and we won't be able to withdraw."
             },
             {
               "key": "C",
-              "description": ""
+              "description": "Yes, a capability is being used here: ??panic"
             },
             {
               "key": "D",
-              "description": ""
+              "description": "Yes, a capability is being used here: signer.borrow"
             }
           ],
-          "answer": ""
+          "answer": "B"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "How do we restrict others from minting an NFT without permission?",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "Make the create NFT function 'access(self).'"
             },
             {
               "key": "B",
-              "description": ""
+              "description": "Place our create NFT function inside a resource."
             },
             {
               "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
+              "description": "We can't stop people as it's a public function."
             }
           ],
-          "answer": ""
+          "answer": "B"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "Anyone can deposit into another persons' collection.",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "True"
             },
             {
               "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
+              "description": "False"
             }
           ],
-          "answer": ""
+          "answer": "A"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "Anyone can withdraw from another persons collection.",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "True"
             },
             {
               "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
+              "description": "False"
             }
           ],
-          "answer": ""
+          "answer": "B"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "Where would we save the NFT minter resource?",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "/public"
             },
             {
               "key": "B",
-              "description": ""
+              "description": "/private"
             },
             {
               "key": "C",
-              "description": ""
+              "description": "/storage"
             },
             {
               "key": "D",
-              "description": ""
+              "description": "/local"
             }
           ],
-          "answer": ""
+          "answer": "C"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "A minter resource with a createNFT function allows anyone to mint an NFT even if they don't own the resource.",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "True"
             },
             {
               "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
+              "description": "False"
             }
           ],
-          "answer": ""
+          "answer": "B"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "What would we use to read our NFT without removing it?",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "destroy function"
             },
             {
               "key": "B",
-              "description": ""
+              "description": "withdraw function"
             },
             {
               "key": "C",
-              "description": ""
+              "description": "a reference"
             },
             {
               "key": "D",
-              "description": ""
+              "description": "a move operator"
             }
           ],
-          "answer": ""
-        },
-        {
-          "type": "radio",
-          "question": "",
-          "options": [
-            {
-              "key": "A",
-              "description": ""
-            },
-            {
-              "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
-            }
-          ],
-          "answer": ""
-        },
-        {
-          "type": "radio",
-          "question": "",
-          "options": [
-            {
-              "key": "A",
-              "description": ""
-            },
-            {
-              "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
-            }
-          ],
-          "answer": ""
+          "answer": "C"
         }
       ]
     }
