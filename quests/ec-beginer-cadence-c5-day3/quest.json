@@ -8,210 +8,106 @@
       "quiz": [
         {
           "type": "radio",
-          "question": "",
+          "question": "What do we need to import to our contract to make sure it abides by the NFT standard set by Flow?",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "NFTMinter.cdc"
             },
             {
               "key": "B",
-              "description": ""
+              "description": "NonFungibleToken.cdc"
             },
             {
               "key": "C",
-              "description": ""
+              "description": "MetadataViews.cdc"
             },
             {
               "key": "D",
-              "description": ""
+              "description": "Float.cdc"
             }
           ],
-          "answer": ""
+          "answer": "B"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "When importing an interface contract you don't have to include events.",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "True"
             },
             {
               "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
+              "description": "False"
             }
           ],
-          "answer": ""
+          "answer": "B"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "Which one to you have to include in your contract from the interface contract?",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "Resource interface."
             },
             {
               "key": "B",
-              "description": ""
+              "description": "Resource itself."
             },
             {
               "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
+              "description": "Both the resource interface, and the resource itself."
             }
           ],
-          "answer": ""
+          "answer": "B"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "What operator do we use to downcast generic type to a more specific type?",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "as!"
             },
             {
               "key": "B",
-              "description": ""
+              "description": "!"
             },
             {
               "key": "C",
-              "description": ""
+              "description": "auth"
             },
             {
               "key": "D",
-              "description": ""
+              "description": "&!"
             }
           ],
-          "answer": ""
+          "answer": "A"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "What do you need to add to your reference to downcast it?",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "as auth"
             },
             {
               "key": "B",
-              "description": ""
+              "description": "<-"
             },
             {
               "key": "C",
-              "description": ""
+              "description": "love"
             },
             {
               "key": "D",
-              "description": ""
+              "description": "??  panic (\"some text\")"
             }
           ],
-          "answer": ""
-        },
-        {
-          "type": "radio",
-          "question": "",
-          "options": [
-            {
-              "key": "A",
-              "description": ""
-            },
-            {
-              "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
-            }
-          ],
-          "answer": ""
-        },
-        {
-          "type": "radio",
-          "question": "",
-          "options": [
-            {
-              "key": "A",
-              "description": ""
-            },
-            {
-              "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
-            }
-          ],
-          "answer": ""
-        },
-        {
-          "type": "radio",
-          "question": "",
-          "options": [
-            {
-              "key": "A",
-              "description": ""
-            },
-            {
-              "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
-            }
-          ],
-          "answer": ""
-        },
-        {
-          "type": "radio",
-          "question": "",
-          "options": [
-            {
-              "key": "A",
-              "description": ""
-            },
-            {
-              "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
-            }
-          ],
-          "answer": ""
+          "answer": "A"
         }
       ]
     }

@@ -8,210 +8,103 @@
       "quiz": [
         {
           "type": "radio",
-          "question": "",
+          "question": "Contract interfaces can be put inside of a contract.",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "True"
             },
             {
               "key": "B",
-              "description": ""
+              "description": "False"
+            }
+          ],
+          "answer": "B"
+        },
+        {
+          "type": "checkbox",
+          "question": "A contract interface can... (select all that apply)",
+          "options": [
+            {
+              "key": "A",
+              "description": "be deployed like a normal contract."
+            },
+            {
+              "key": "B",
+              "description": "implement pre & post conditions."
             },
             {
               "key": "C",
-              "description": ""
+              "description": "confirm that the importing contract has the correct items."
             },
             {
               "key": "D",
-              "description": ""
+              "description": "are always stored in the same wallet as the importing contract."
             }
           ],
-          "answer": ""
+          "answer": "A,C"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "A contract interface can have a resource interface inside itself.",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "True"
             },
             {
               "key": "B",
-              "description": ""
+              "description": "False"
+            }
+          ],
+          "answer": "A"
+        },
+        {
+          "type": "checkbox",
+          "question": "A contract interface can help to set a network standard to better help... (select all that apply)",
+          "options": [
+            {
+              "key": "A",
+              "description": "the price of Flow."
+            },
+            {
+              "key": "B",
+              "description": "marketplace integration."
             },
             {
               "key": "C",
-              "description": ""
+              "description": "NFT standards."
             },
             {
               "key": "D",
-              "description": ""
+              "description": "composability."
             }
           ],
-          "answer": ""
+          "answer": "B,C,D"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "What is missing from line 11?",
+          "image": "https://lh3.googleusercontent.com/W_ld0YJ4xuGcrad5g24BffrPhwlPtlIB_hIH7SSJi4BEGg36KL9Y87HhmHa-aGi0OVIoppTY5F5JcMyInvnk8pdo5Ox36e3Um3IZkQQ2hx-D3Ae-QXie-6JwvdXBm2a7Ew=w740",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "Need to implement IStonk in the contract."
             },
             {
               "key": "B",
-              "description": ""
+              "description": ": IStonks.IStonk"
             },
             {
               "key": "C",
-              "description": ""
+              "description": "Nothing, just refresh the page."
             },
             {
               "key": "D",
-              "description": ""
+              "description": ": IStonk"
             }
           ],
-          "answer": ""
-        },
-        {
-          "type": "radio",
-          "question": "",
-          "options": [
-            {
-              "key": "A",
-              "description": ""
-            },
-            {
-              "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
-            }
-          ],
-          "answer": ""
-        },
-        {
-          "type": "radio",
-          "question": "",
-          "options": [
-            {
-              "key": "A",
-              "description": ""
-            },
-            {
-              "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
-            }
-          ],
-          "answer": ""
-        },
-        {
-          "type": "radio",
-          "question": "",
-          "options": [
-            {
-              "key": "A",
-              "description": ""
-            },
-            {
-              "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
-            }
-          ],
-          "answer": ""
-        },
-        {
-          "type": "radio",
-          "question": "",
-          "options": [
-            {
-              "key": "A",
-              "description": ""
-            },
-            {
-              "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
-            }
-          ],
-          "answer": ""
-        },
-        {
-          "type": "radio",
-          "question": "",
-          "options": [
-            {
-              "key": "A",
-              "description": ""
-            },
-            {
-              "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
-            }
-          ],
-          "answer": ""
-        },
-        {
-          "type": "radio",
-          "question": "",
-          "options": [
-            {
-              "key": "A",
-              "description": ""
-            },
-            {
-              "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
-            }
-          ],
-          "answer": ""
+          "answer": "B"
         }
       ]
     }

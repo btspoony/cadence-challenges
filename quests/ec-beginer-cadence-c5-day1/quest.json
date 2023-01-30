@@ -8,210 +8,161 @@
       "quiz": [
         {
           "type": "radio",
-          "question": "",
+          "question": "In-between which lines would you add the pre condition?",
+          "image": "https://lh4.googleusercontent.com/zGGsQQPqQyg7_C9SBer6Y_nULqH6i21WPY8X2dmCtZRyVOeqWWLGy9ffnGJc7stHDLrwDvWpaVpT62JJkov_Hc2YCOQRxt8gH7sIMlDPI1odXtsBWdcQOIWQA8a_S1cprA=w740",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "1 and 2"
             },
             {
               "key": "B",
-              "description": ""
+              "description": "3 and 4"
             },
             {
               "key": "C",
-              "description": ""
+              "description": "5 and 6"
             },
             {
               "key": "D",
-              "description": ""
+              "description": "6 and 7"
             }
           ],
-          "answer": ""
+          "answer": "C"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "You add pre and post conditions in the same section of code.",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "True"
             },
             {
               "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
+              "description": "False"
             }
           ],
-          "answer": ""
+          "answer": "A"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "'post' runs after the function is...",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "executed"
             },
             {
               "key": "B",
-              "description": ""
+              "description": "called"
             },
             {
               "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
+              "description": "initialised"
             }
           ],
-          "answer": ""
+          "answer": "A"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "'pre' runs when the function gets...",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "called."
             },
             {
               "key": "B",
-              "description": ""
+              "description": "executed."
             },
             {
               "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
+              "description": "initialised."
             }
           ],
-          "answer": ""
+          "answer": "A"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "What is missing?",
+          "image": "https://lh5.googleusercontent.com/P33UrvOPXWAZhiFRa-0no8IFgE9oD7NGummUYXcvCOmcWu3ZoSkCDWhabfGSC5e6aOpyQfKLO6fbF04PfT4-jP4MA0IB1PvHe6ZQV4XQoyRc8unvKdjeRdcSiuKj7VsugQ=w740",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "A return statement"
             },
             {
               "key": "B",
-              "description": ""
+              "description": "init()"
             },
             {
               "key": "C",
-              "description": ""
+              "description": "pub fun main():"
             },
             {
               "key": "D",
-              "description": ""
+              "description": "execute{}"
             }
           ],
-          "answer": ""
+          "answer": "A"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "An event in it's simplest form is a way for you to...",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "make new friends."
             },
             {
               "key": "B",
-              "description": ""
+              "description": "Split your contract up into sections or 'events'"
             },
             {
               "key": "C",
-              "description": ""
+              "description": "broadcast something that happened in your contract."
+            }
+          ],
+          "answer": "C"
+        },
+        {
+          "type": "checkbox",
+          "question": "For an public event to happen you need... (select both)",
+          "options": [
+            {
+              "key": "A",
+              "description": "pub event"
+            },
+            {
+              "key": "B",
+              "description": "emit"
+            },
+            {
+              "key": "C",
+              "description": "loudnoises"
             },
             {
               "key": "D",
-              "description": ""
+              "description": "notify"
             }
           ],
-          "answer": ""
+          "answer": "A,B"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "Events don't have to be public.",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "True"
             },
             {
               "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
+              "description": "False"
             }
           ],
-          "answer": ""
-        },
-        {
-          "type": "radio",
-          "question": "",
-          "options": [
-            {
-              "key": "A",
-              "description": ""
-            },
-            {
-              "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
-            }
-          ],
-          "answer": ""
-        },
-        {
-          "type": "radio",
-          "question": "",
-          "options": [
-            {
-              "key": "A",
-              "description": ""
-            },
-            {
-              "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
-            }
-          ],
-          "answer": ""
+          "answer": "B"
         }
       ]
     }
