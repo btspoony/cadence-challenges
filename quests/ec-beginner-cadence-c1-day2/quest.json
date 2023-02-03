@@ -113,7 +113,7 @@
           "answer": "D"
         },
         {
-          "type": "radio",
+          "type": "checkbox",
           "question": "Flow is...? (select all that apply)",
           "options": [
             {
