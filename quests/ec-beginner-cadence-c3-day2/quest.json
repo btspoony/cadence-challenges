@@ -127,7 +127,7 @@
           "answer": "D"
         },
         {
-          "type": "radio",
+          "type": "checkbox",
           "question": "With this remove function, what is missing from line 26? (select all that apply)",
           "image": "https://lh5.googleusercontent.com/4okXmrtLrvBtmwuN4d2y7XcMCwQGd00uFrC2e5Vthq2tjusvAdiT4oVJmtLLjI1q7t7GR-rvaNmQ0jRRcJq1aIB6kNSan3Jm-F7US6ZrjovzTqjKd3a3T-4WtaT2OMd-nw=w740",
           "options": [
@@ -148,7 +148,7 @@
               "description": "remove"
             }
           ],
-          "answer": "A"
+          "answer": "A,D"
         },
         {
           "type": "radio",
