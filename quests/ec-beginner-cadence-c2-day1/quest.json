@@ -115,7 +115,7 @@
       "type": "quiz",
       "quiz": [
         {
-          "type": "radio",
+          "type": "checkbox",
           "question": "A Flow blockchain address...(select all that apply)",
           "options": [
             {
@@ -218,7 +218,7 @@
             },
             {
               "key": "D",
-              "description": "All of the above"
+              "description": "All of the options"
             }
           ],
           "answer": "A"
@@ -322,7 +322,7 @@
           "answer": "A"
         },
         {
-          "type": "radio",
+          "type": "checkbox",
           "question": "What is an example of an access modifier? (select all that apply)",
           "options": [
             {

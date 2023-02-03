@@ -293,7 +293,7 @@
           "answer": "A"
         },
         {
-          "type": "radio",
+          "type": "checkbox",
           "question": "What two pieces of syntax are missing? (select both)",
           "image": "https://lh4.googleusercontent.com/SenhSE2S0bQUOfI22AjJpnfXUaA65tNzDe7-s4FWPfgxjr33flbZRBxMAifUaswudXrfCcB0QXEK4B1K84yi__9n3oamWSn1yw-K9zINBwy17AekVWvAso6jUa-bsoIdtQ=w740",
           "options": [
