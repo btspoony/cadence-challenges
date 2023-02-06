@@ -1,217 +1,101 @@
 {
-  "guide": "",
+  "guide": "https://raw.githubusercontent.com/onflow/flow/master/docs/content/concepts/accounts-and-keys.md",
   "steps": [
     {
-      "title": "Learning validation quiz",
+      "title": "Learn about Flow Accounts",
       "description": "",
       "type": "quiz",
       "quiz": [
         {
           "type": "radio",
-          "question": "",
+          "question": "Can the Flow address be calculated by a public key?",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "Yes"
             },
             {
               "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
+              "description": "No"
             }
           ],
-          "answer": ""
+          "answer": "B"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "Multiple public keys can be set in a Flow account.",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "True"
             },
             {
               "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
+              "description": "False"
             }
           ],
-          "answer": ""
+          "answer": "A"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "Each key in an account has a dedicated sequence number for transactions.",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "True"
             },
             {
               "key": "B",
-              "description": ""
+              "description": "False"
+            }
+          ],
+          "answer": "A"
+        },
+        {
+          "type": "checkbox",
+          "question": "Select all signer roles when signing a transaction for Flow.",
+          "options": [
+            {
+              "key": "A",
+              "description": "Proposer"
+            },
+            {
+              "key": "B",
+              "description": "Authorizers"
             },
             {
               "key": "C",
-              "description": ""
+              "description": "Payer"
             },
             {
               "key": "D",
-              "description": ""
+              "description": "Validator"
             }
           ],
-          "answer": ""
+          "answer": "A,B,C"
         },
         {
           "type": "radio",
-          "question": "",
+          "question": "How many signature weights are required to authorize a transaction to access an account?",
           "options": [
             {
               "key": "A",
-              "description": ""
+              "description": "10"
             },
             {
               "key": "B",
-              "description": ""
+              "description": "100"
             },
             {
               "key": "C",
-              "description": ""
+              "description": "1000"
             },
             {
               "key": "D",
-              "description": ""
+              "description": "10000"
             }
           ],
-          "answer": ""
-        },
-        {
-          "type": "radio",
-          "question": "",
-          "options": [
-            {
-              "key": "A",
-              "description": ""
-            },
-            {
-              "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
-            }
-          ],
-          "answer": ""
-        },
-        {
-          "type": "radio",
-          "question": "",
-          "options": [
-            {
-              "key": "A",
-              "description": ""
-            },
-            {
-              "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
-            }
-          ],
-          "answer": ""
-        },
-        {
-          "type": "radio",
-          "question": "",
-          "options": [
-            {
-              "key": "A",
-              "description": ""
-            },
-            {
-              "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
-            }
-          ],
-          "answer": ""
-        },
-        {
-          "type": "radio",
-          "question": "",
-          "options": [
-            {
-              "key": "A",
-              "description": ""
-            },
-            {
-              "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
-            }
-          ],
-          "answer": ""
-        },
-        {
-          "type": "radio",
-          "question": "",
-          "options": [
-            {
-              "key": "A",
-              "description": ""
-            },
-            {
-              "key": "B",
-              "description": ""
-            },
-            {
-              "key": "C",
-              "description": ""
-            },
-            {
-              "key": "D",
-              "description": ""
-            }
-          ],
-          "answer": ""
+          "answer": "C"
         }
       ]
     }
