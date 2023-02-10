@@ -1,0 +1,23 @@
+{
+  "guide": "",
+  "steps": [
+    {
+      "title": "Verify contributions",
+      "description": "",
+      "type": "github",
+      "repos": [
+        "onflow/flow-go",
+        "onflow/cadence",
+        "onflow/flow",
+        "onflow/flips",
+        "onflow/flow-nft",
+        "onflow/flow-ft",
+        "onflow/fcl-js",
+        "onflow/flow-go-sdk",
+        "onflow/flow-cli",
+        "onflow/flow-playground",
+        "onflow/cadence-tools"
+      ]
+    }
+  ]
+}

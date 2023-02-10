@@ -73,6 +73,16 @@ The schema of `quest.json`
         }
       ]
     },
+    // Github contribution verification schema
+    {
+      "title": "The title of current quest step",
+      "description": "The description of current quest step",
+      "external": "(Optional) URL of the external information", // external url for this step
+      "type": "github",
+      "repos": [ // to verify if you contribute to these repos
+        "owner/repo"
+      ]
+    }
   ]
 }
 ```

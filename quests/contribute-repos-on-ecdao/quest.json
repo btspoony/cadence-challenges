@@ -1,0 +1,18 @@
+{
+  "guide": "",
+  "steps": [
+    {
+      "title": "Verify contributions",
+      "description": "",
+      "type": "github",
+      "repos": [
+        "emerald-dao/float",
+        "emerald-dao/beginner-cadence-course",
+        "emerald-dao/intermediate-cadence-course",
+        "emerald-dao/beginner-dapp-course",
+        "emerald-dao/link",
+        "emerald-dao/emerald-id"
+      ]
+    }
+  ]
+}
