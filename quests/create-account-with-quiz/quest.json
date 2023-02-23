@@ -2,29 +2,52 @@
   "guide": "https://raw.githubusercontent.com/btspoony/cadence-challenges/main/quests/create-account/README.md",
   "steps": [
     {
-      "title": "Go to faucet webiste",
+      "title": "Learn to create an account",
       "description": "",
       "type": "quiz",
       "quiz": [
         {
           "type": "radio",
-          "question": "What is the URL of Flow faucet?",
+          "question": "Which command is used to create an account?",
           "options": [
             {
               "key": "A",
-              "description": "https://testnet-faucet.onflow.org/"
+              "description": "flow accounts create"
             },
             {
               "key": "B",
-              "description": "https://port.onflow.org/"
+              "description": "flow accounts new"
             },
             {
               "key": "C",
-              "description": "https://developers.flow.com/"
+              "description": "flow new account"
             },
             {
               "key": "D",
-              "description": "https://testnet.flowscan.org/"
+              "description": "flow keys new"
+            }
+          ],
+          "answer": "A"
+        },
+        {
+          "type": "radio",
+          "question": "Which step needs to be done before account creation?",
+          "options": [
+            {
+              "key": "A",
+              "description": "flow init"
+            },
+            {
+              "key": "B",
+              "description": "flow keys generate"
+            },
+            {
+              "key": "C",
+              "description": "flow new account"
+            },
+            {
+              "key": "D",
+              "description": "flow keys new"
             }
           ],
           "answer": "A"

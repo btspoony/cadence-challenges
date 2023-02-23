@@ -8,17 +8,38 @@ Required:
 
 - [Flow CLI](https://developers.flow.com/tools/flow-cli/install) (🧨 Make sure to install the correct link for your system 🧨). You know you have installed it if you type `flow version` in your terminal and it prints a version.
 
+## Initialize configuration
+
+You need to initialize flow configuration file before creating a new account.
+
+```bash
+> flow init
+```
+
+![Flow init](https://i.imgur.com/gI3Nuaj.png)
+
 ## Create your account
 
-> Make sure to save your public key and private key somewhere, you will need them in future.
+> Get more information on [Create Accounts](https://developers.flow.com/tools/flow-cli/create-accounts)
 
-🔐 Generate a **deployer address** by typing `flow keys generate --network=testnet` into a terminal.
+Create the account in interactive mode.
 
-![generate key pair](https://i.imgur.com/HbF4C73.png)
+```bash
+flow accounts create
+```
 
-👛 Create your **deployer account** by going to <https://testnet-faucet.onflow.org/>, pasting in your public key from above, and clicking `CREATE ACCOUNT`:
+![Create account](https://i.imgur.com/bKU6lur.png)
 
-![configure testnet account on the website](https://i.imgur.com/73OjT3K.png)
+## View your account on Flow View Source
 
-After it finishes, click `COPY ADDRESS` and make sure to save that address somewhere.  
-You will need it!
+Going to <https://f.dnz.dev/>, pasting in your account address from above, and searching it.
+
+![View Account](https://i.imgur.com/TGYHQ5k.png)
+
+> Note: you can view the public keys of your account by the url `https://f.dnz.dev/{yourAddress}/keys`
+
+## Get funds from faucet
+
+👛 Get funds by going to <https://testnet-faucet.onflow.org/fund-account>, pasting in your account address from above, and clicking `FUND YOUR ACCOUNT`:
+
+![get funds on the website](https://i.imgur.com/Ka0mpWN.png)
