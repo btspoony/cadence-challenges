@@ -1,5 +1,5 @@
 {
-  "guide": "https://raw.githubusercontent.com/onflow/flow/master/docs/content/concepts/accounts-and-keys.md",
+  "guide": "https://raw.githubusercontent.com/onflow/docs/main/docs/concepts/start-here/accounts-and-keys.md",
   "steps": [
     {
       "title": "Learn about Flow Accounts",
