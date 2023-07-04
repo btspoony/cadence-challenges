@@ -1,0 +1,81 @@
+{
+  "guide": "https://raw.githubusercontent.com/btspoony/cadence-challenges/main/quests/quickstarts-0-hello-world/mission-1/README.md",
+  "steps": [
+    {
+      "title": "Learn to use Flow CLI and dev wallet",
+      "description": "",
+      "type": "quiz",
+      "quiz": [
+        {
+          "type": "radio",
+          "question": "What is required to complete the installation for the Hello World tutorial?",
+          "options": [
+            {
+              "key": "A",
+              "description": "Git, Node, and Flow CLI."
+            },
+            {
+              "key": "B",
+              "description": "Git, Python, and Flow CLI."
+            },
+            {
+              "key": "C",
+              "description": "Node, Python, and Flow CLI."
+            },
+            {
+              "key": "D",
+              "description": "Node, Git, and Solidity."
+            }
+          ],
+          "answer": "A"
+        },
+        {
+          "type": "radio",
+          "question": "What is the purpose of Checkpoint 1 in the Hello World tutorial?",
+          "options": [
+            {
+              "key": "A",
+              "description": "To create a new Flow account."
+            },
+            {
+              "key": "B",
+              "description": "To read the greeting from the smart contract."
+            },
+            {
+              "key": "C",
+              "description": "To deploy the smart contract to testnet."
+            },
+            {
+              "key": "D",
+              "description": "To select an account to log into the local dev wallet."
+            }
+          ],
+          "answer": "D"
+        },
+        {
+          "type": "radio",
+          "question": "What do you need to do to change the greeting?",
+          "options": [
+            {
+              "key": "A",
+              "description": "Click the Get Greeting button"
+            },
+            {
+              "key": "B",
+              "description": "Type a new greeting into the input and click the Change Greeting button"
+            },
+            {
+              "key": "C",
+              "description": "Approve the transaction"
+            },
+            {
+              "key": "D",
+              "description": "Click the Get Greeting button again"
+            }
+          ],
+          "answer": "B"
+        }
+      ]
+    }
+  ]
+}

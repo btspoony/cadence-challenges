@@ -1,0 +1,99 @@
+{
+  "guide": "https://raw.githubusercontent.com/btspoony/cadence-challenges/main/quests/quickstarts-0-hello-world/mission-2/README.md",
+  "steps": [
+    {
+      "title": "Learn to deploy contract",
+      "description": "",
+      "type": "quiz",
+      "quiz": [
+        {
+          "type": "checkbox",
+          "question": "What do you need to do to deploy the HelloWorld smart contract to the Flow testnet?",
+          "options": [
+            {
+              "key": "A",
+              "description": "Edit the .env file"
+            },
+            {
+              "key": "B",
+              "description": "Create a deployer account"
+            },
+            {
+              "key": "C",
+              "description": "Modify the `flow.json` file"
+            },
+            {
+              "key": "D",
+              "description": "Deploy the contract using `flow project deploy --network=testnet`"
+            }
+          ],
+          "answer": "B,C,D"
+        },
+        {
+          "type": "checkbox",
+          "question": "What do you need to do to interact with your new contract on the Flow testnet?",
+          "options": [
+            {
+              "key": "A",
+              "description": "Change the `NEXT_PUBLIC_CONTRACT_ADDRESS` variable in the `.env` file"
+            },
+            {
+              "key": "B",
+              "description": "Change the `NEXT_PUBLIC_ACCESS_NODE` variable in the `.env` file"
+            },
+            {
+              "key": "C",
+              "description": "Change the `NEXT_PUBLIC_WALLET` variable in the `.env` file"
+            },
+            {
+              "key": "D",
+              "description": "Run `npm run dev`"
+            }
+          ],
+          "answer": "A,B,C,D"
+        },
+        {
+          "type": "radio",
+          "question": "Where can you get help if you have problems or questions?",
+          "options": [
+            {
+              "key": "A",
+              "description": "The Flow website"
+            },
+            {
+              "key": "B",
+              "description": "The Git website"
+            },
+            {
+              "key": "C",
+              "description": "The Node.js website"
+            },
+            {
+              "key": "D",
+              "description": "The Emerald City Discord"
+            }
+          ],
+          "answer": "D"
+        }
+      ]
+    },
+    {
+      "title": "Verify the contract on Testnet",
+      "description": "Input your testnet deployer address to verify your HelloWorld contract.",
+      "type": "onchain",
+      "code": "https://raw.githubusercontent.com/btspoony/cadence-challenges/main/quests/quickstarts-0-hello-world/mission-2/verify-contract-deployed.cdc",
+      "schema": [
+        {
+          "key": "acct",
+          "label": "Account",
+          "type": "Address"
+        }
+      ],
+      "test": {
+        "network": "testnet",
+        "expect": "return",
+        "result": true
+      }
+    }
+  ]
+}
